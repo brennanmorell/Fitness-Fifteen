@@ -22,12 +22,19 @@
 </nav>
 <div id="main" class="above-fold">
     <section id="home">
-        <h1>FITNESS <span class="highlight">FIFTEEN</span></h1>
-        <div id="description">
-            <!--<div id="description-header">No More Freshman 15</div>-->
-            <p id="description-sub">
-                Custom workouts and campus-specific nutrition for college students, by college students.
-            </p>
+        <div id="above-fold-content">
+            <h1>FITNESS <span class="highlight">FIFTEEN</span></h1>
+            <div id="description">
+                <!--<div id="description-header">No More Freshman 15</div>-->
+                <!--Custom workouts and campus-specific nutrition for college students, by college students.-->
+                <!--<p id="description-sub">-->
+                    PERSONALIZED WORKOUTS <span class="highlight division">|</span> CAMPUS-SPECIFIC NUTRITION
+                <!--</p>-->
+            </div>
+        </div>
+        <div id="above-fold-head">
+            <div class="stacked one">For College Students.</div>
+            <div class="stacked two">By College Students.</div>
         </div>
     </section>
     <div class="bottom-banner">
@@ -43,12 +50,20 @@
 </div>
 <section id="features" class="section-body">
     <div class="section-content dual-panel">
-        <div class="p-wrapper">
-            <p>Fitness Fifteen was founded by three Wash U students that want to help college students maintain a healthy lifestyle. Our personalized online training and nutritional programs save students valuable time by providing enjoyable and efficient workouts with campus-specific, nutritional advice. By helping college students stay fit year-round, we eliminate the stigma of the “Freshman Fifteen” and mitigate the repercussions of the unhealthy college lifestyle.</p>
+        <div class="left-panel">
+            <div class="content-header">NO MORE<br>FRESHMAN FIFTEEN.</div>
+            <div class="p-wrapper">
+                <p>
+                    In a market where personal training is neither affordable nor practical, 
+                    Fitness Fifteen provides the tailored services college students need to 
+                    integrate healthy choices into their current lifestyle.
+                </p>
+            </div>
         </div>
-        <div class="video-wrapper">
+        <div class="right-panel">
             <div class="video-container">
                 <div class="video-player">
+                    <img src="wp-content/themes/fitnessfifteen/images/Video-Watermark-fiverr.png">
                 </div>
             </div>
         </div>
