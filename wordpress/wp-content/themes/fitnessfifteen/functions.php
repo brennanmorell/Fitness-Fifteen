@@ -4,7 +4,8 @@
 	 */
 	function add_fitnessfifteen_styles() {
 			wp_enqueue_style( 'font_style', 'https://fonts.googleapis.com/css?family=Roboto'); //enqueue site's google font
-			wp_enqueue_style( 'style', get_stylesheet_uri()); //enqueue style.css
+			//wp_enqueue_style( 'style', get_stylesheet_uri()); //enqueue style.css
+			wp_enqueue_style( 'style', get_template_directory_uri()."/style-responsive.css");
 			wp_enqueue_style( 'scrolling_nav_style', get_template_directory_uri()."/css/scrolling-nav.css"); //enqueue scrolling-nav.css
 	}
 	add_action( 'wp_enqueue_scripts', 'add_fitnessfifteen_styles' );
@@ -16,6 +17,7 @@
 		wp_enqueue_script('jquery');
 		wp_enqueue_script('easing_script',get_template_directory_uri()."/js/jquery.easing.min.js");
 		wp_enqueue_script('scrolling_nav_script',get_template_directory_uri()."/js/scrolling-nav.js");
+		wp_enqueue_script('responsive_script',get_template_directory_uri()."/js/responsiveScript.js");
 	}
 	add_action( 'wp_enqueue_scripts', 'add_fitnessfifteen_scripts' );
 

@@ -22,11 +22,6 @@ body{
   position: fixed;
 }
 
-@media only screen and (max-width: 500px) {
-   .navbar { font-size: 10px; margin-top:5%; text-align:center; }
-}
-
-
 .navbar ul{
   margin-left:20px;
   height:60px;
@@ -34,22 +29,11 @@ body{
   min-width:20px;
 }
 
-@media only screen and (max-width: 500px) {
-   .navbar ul{ margin-left:0; text-align:center; display:inline-block; }
-}
-
-@media only screen and (max-width: 500px) {
-   .navbar ul {border-color:pink;}
-}
-
 .navbar ul li{
   margin-right:25px;
   display:inline-block;
 }
 
-@media only screen and (max-width: 500px) {
-   .navbar ul li{ float:left; margin-right:0;}
-}
 
 .navbar ul li a{
   color:rgba(255,255,255,.9);
@@ -57,13 +41,89 @@ body{
   text-decoration:none;
 }
 
-@media only screen and (max-width: 500px) {
-   .navbar ul li a{ display:block; text-align:center;  width:60px}
+.navbar ul li a:hover{
+  color:rgb(248, 168, 27);
+}
+
+@media screen and (max-width:680px) {
+  /* Remove margins and padding from the list, and add a black background color */
+  .navbar{
+    height:30px;
+    background-color:rgba(0,0,0,.5);
+  }
+  .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      line-height:30px;
+      height:30px;
+  }
+
+  /* Float the list items side by side */
+  .navbar li {float: left;}
+
+  /* Style the links inside the list items */
+  .navbar ul li a {
+      display: inline-block;
+      color: #f2f2f2;
+      text-align: center;
+      text-decoration: none;
+      font-size: 10px;
+      padding-left:15px;
+  }
+
+  /* Change background color of links on hover */
+  /*.navbar ul li a:hover {background-color: #111;}*/
+
+  /* Hide the list item that contains the link that should open and close the topnav on small screens */
+  .navbar ul li.icon {display: none;}
 }
 
 
-.navbar ul li a:hover{
-  color:rgb(248, 168, 27);
+
+
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) {
+  .navbar ul li:not(:first-child) {display: none;}
+  .navbar ul li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+  .navbar ul.responsive {
+    position: relative; 
+    height:100vh;
+    background-color:rgba(0,0,0,.8);
+    padding-top:100px;
+  }
+  .navbar ul.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar ul.responsive li {
+    float: none;
+    display: inline;
+  }
+
+  .navbar ul.responsive li a {
+    display: block;
+    text-align: center;
+    font-size:30px;
+  }
+
+  .navbar ul.responsive li a {
+    display: block;
+    text-align: center;
+    font-size:30px;
+    padding-bottom:20px;
+  }
+
+  .navbar ul.responsive li:first-child a{
+    /*margin-top:60px;*/
+  }
 }
 
 textarea:focus, input:focus{
@@ -95,6 +155,10 @@ textarea:focus, input:focus{
   height:100vh;
   display: table;
   width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+   .above-fold { height:255px; }
 }
 
 #home {  
@@ -141,7 +205,8 @@ textarea:focus, input:focus{
 
 @media only screen and (max-width: 500px) {
 
-   .stacked.one { margin-top:30%; font-size: 30px; }
+   /*.stacked.one { margin-top:0px; font-size: 30px; }*/
+   .stacked.one{display:none;};
   
 }
 
@@ -152,7 +217,8 @@ textarea:focus, input:focus{
 
 @media only screen and (max-width: 500px) {
 
-   .stacked.two { margin-top:2%; font-size: 35px; }
+   /*.stacked.two { margin-top:2%; font-size: 35px; }*/
+   .stacked.two{display:none;}
   
 }
 
@@ -174,7 +240,8 @@ textarea:focus, input:focus{
 @media screen and (max-width: 500px) 
 {
   .above-fold .bottom-banner{
-    height:15%
+    top: 205px; 
+    height:50px;
   }
 }
 
@@ -311,15 +378,16 @@ textarea:focus, input:focus{
     min-height:750px;
     padding-top:60px;
     padding-bottom:5%;
-    background:rgba(0,0,0,.1);
+    background:rgba(0,0,0,.05);
 }
 
 @media only screen and (max-width: 500px) {
 
-   .section-body { padding-top:0; }
+   .section-body { 
+    padding-top:30px; 
+   }
   
 }
-
 
 
 .section-body#blog{
@@ -333,11 +401,23 @@ textarea:focus, input:focus{
   font-size:80px;
 }
 
+@media only screen and (max-width: 500px) {
+
+   .section-body .section-head { font-size:50px; }
+  
+}
+
 
 .section-body .sub-head{
   padding-bottom:2%;
   text-align:center;
   font-size:20px;
+}
+
+@media only screen and (max-width: 500px) {
+
+   .section-body .sub-head { font-size:15px; }
+  
 }
 
 .section-body#about .section-head{
@@ -350,6 +430,7 @@ textarea:focus, input:focus{
 
 .section-body .section-content{
   margin:auto;
+  margin-bottom:2%;
 }
 
 .section-body .section-content.dual-panel{
@@ -362,16 +443,15 @@ textarea:focus, input:focus{
   
 }
 
+
 .left-panel
 {
   margin:auto;
   margin:2%;
   border-radius:5px;
   display: inline-block;
-  max-width: 600px;
   text-align: left;
   padding: 30px;
-  background-color: #f3f3f3;
   vertical-align: top;
 }
 
@@ -400,40 +480,42 @@ textarea:focus, input:focus{
     }
 }
 
-.section-body .section-content .video-wrapper{
-  /*right half of .section-content.dual-panel in about*/
-  margin-left: 50%;
-}
-
-.section-body .section-content .left-panel .content-header{
+.section-body .section-content .content-header{
+  color:rgb(68,68,68);
   text-align:left;
   font-size:60px;
 }
 
 @media only screen and (max-width: 500px) {
 
-   .section-body .section-content .left-panel .content-header{ font-size:30px; }
+   .section-body .section-content .content-header{ font-size:30px; }
   
 }
 
-.section-body .section-content .left-panel .p-wrapper p{
+.section-body .section-content .p-wrapper{
+  margin-top:3%;
+  max-width:450px;
+}
+
+
+.section-body .section-content .p-wrapper p{
   text-align:left;
-  font-size:40px;
-  color:rgba(0,0,0,.8);
+  font-size:30px;
+  color:rgba(68,68,68,.8);
 }
 
 @media only screen and (max-width: 500px) {
 
-   .section-body .section-content .left-panel .p-wrapper p{ font-size:20px; }
+   .section-body .section-content .p-wrapper p{ font-size:20px; }
   
 }
 
-.section-body .section-content .right-panel .video-container{
+.section-body .section-content .video-container{
   padding:0;
   width:100%;
 }
 
-.section-body .section-content .right-panel .video-container .video-player{
+.section-body .section-content .video-container .video-player{
   margin:auto;
   width:400px;
   height:400px;
@@ -441,8 +523,6 @@ textarea:focus, input:focus{
   border-radius:5px;
   border-color:rgb(248, 168, 27);
   backround-color:white;
-  display:flex;
-  align-self:center;
 }
 
 @media screen and (max-width: 400px) 
@@ -451,11 +531,110 @@ textarea:focus, input:focus{
 }
 
 
-.section-body .section-content .right-panel .video-container .video-player img{
+.section-body .section-content  .video-container .video-player img{
   width:100%;
   height:100%;
+}
+
+#features-list{
+  margin:auto;
+  margin-top:5%;
+  width:1200px;
+  height:300px;
+  display:flex;
+  justify-content:center;
+}
+
+.circleBase{
+  border-radius: 50%;
+  behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+  border-style:solid;
+  border-width: 5px;
+  width:100%;
+}
+
+.featureContainer{
+  float:left;
+  margin-left:2%;
+  margin-right:2%;
+}
+
+.featureContainer.outer-left{
+  margin-left:0;
+}
+
+.featureContainer.outer-right{
+  margin-right:0;
+}
+
+.feature-icon{
+  margin:auto;
+  height:150px;
+  width:150px;
+  border-color:rgba(68,68,68,.8);
+  border-width:3px;
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+ *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *      the content's height is greater than the image's height */
+  /*background-attachment: fixed;*/
+  
+  /* This is what makes the background image rescale based
+ *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *      on the container's size */
+  background-size: 75px;
+  
+  /* Set a background color that will be displayed
+ *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *      while the background image is loading */
   
 }
+
+.feature-name{
+  margin:auto;
+  margin-top:25px;
+  width:250px;
+  text-align:center;
+  font-size:20px;
+  color:rgba(68,68,68,.8);
+
+}
+
+.feature-description{
+  margin-top:5%;
+  color:rgba(68,68,68,.5);
+}
+
+.workouts{
+   /* Location of the image */
+  background-image: url(images/icons/png/athlete.png);
+}
+
+.nutrition{
+   /* Location of the image */
+  background-image: url(images/icons/png/bowl-of-white-rice.png);
+}
+
+.feedback{
+  /* Location of the image */
+  background-image: url(images/icons/png/presentation.png);
+}
+
+.flexibility{
+  /* Location of the image */
+  background-image: url(images/icons/png/beer.png);
+}
+
+
+
+
+
+
+
+
 
 
 

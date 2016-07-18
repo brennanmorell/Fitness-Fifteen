@@ -12,12 +12,15 @@
 
 <?php get_header(); ?>
 <nav class="navbar" id="top">
-    <ul>
-        <li><a class="page-scroll" href="#main">Home</a></li>
-        <li><a class="page-scroll" href="#features">Features</a></li>
-        <li><a class="page-scroll" href="#beta">Summer 16</a></li>
-        <li><a class="page-scroll" href="#about">About</a></li>
-        <li><a class="page-scroll" href="#blog">Blog</a></li>
+    <ul id="navUL">
+        <li><a class="page-scroll" href="#main" onclick="hideNav()">Home</a></li>
+        <li><a class="page-scroll" href="#features" onclick="hideNav()">Features</a></li>
+        <li><a class="page-scroll" href="#beta" onclick="hideNav()">Summer 16</a></li>
+        <li><a class="page-scroll" href="#about" onclick="hideNav()">About</a></li>
+        <li><a class="page-scroll" href="#blog" onclick="hideNav()">Blog</a></li>
+        <li class="icon">
+            <a href="javascript:void(0);" style="font-size:15px;" onclick="navRespond()">☰</a>
+        </li>
     </ul>
 </nav>
 <div id="main" class="above-fold">
@@ -50,6 +53,68 @@
 </div>
 <section id="features" class="section-body">
     <div class="section-content dual-panel">
+        <!-- Personalized Workouts, Campus-Specific Nutrition, Immediate Feedback, Flexibility 
+        http://metalab.co/company/ -->
+        <div class="left-panel">
+            <div class="content-header">NO MORE<br>FRESHMAN FIFTEEN.</div>
+            <div class="p-wrapper">
+                <p>
+                    In a market where personal training is neither affordable nor practical, 
+                    Fitness Fifteen provides the tailored services college students need to 
+                    integrate healthy choices into their current lifestyle.
+                </p>
+            </div>
+        </div>
+        <div class="right-panel">
+            <div class="video-container">
+                <div class="video-player">
+                    <!--<img src="wp-content/themes/fitnessfifteen/images/">-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="features-list">
+        <div class="featureContainer outer-left">
+            <div class="circleBase feature-icon workouts"></div>
+            <div class="feature-name">Personalized Workouts</div>
+            <p class="feature-description">We create workout programs that are catered to your preferences and fitness goals to help you optimize your time spent in the gym.</p>
+        </div>
+        <div class="featureContainer ">
+            <div class="circleBase feature-icon nutrition"></div>
+            <div class="feature-name">Campus-Specific Nutrition</div>
+            <p class="feature-description">With so many dining options on-campus, it’s tough to decide which choices are healthy, let alone what to eat for each meal. We make it simple by offering healthy suggestions for every meal anywhere on-campus.</p>
+        </div>
+        <div class="featureContainer">
+            <div class="circleBase feature-icon feedback"></div>
+            <div class="feature-name">Immediate Feedback</div>
+            <p class="feature-description">Have a question about your form on a particular exercise or anything fitness-related? Ask our personal trainers via text/e-mail and get a response within 24 hours.</p>
+        </div>
+        <div class="featureContainer outer-right">
+            <div class="circleBase feature-icon flexibility"></div>
+            <div class="feature-name">Flexibility</div>
+            <p class="feature-description">The purpose of our service isn’t to have fitness take over your life, but to help you integrate healthy habits into the college lifestyle. You can still drink natty. You can still eat Chiptole.</p>
+        </div>
+    </div>
+    <!--<div class="section-content dual-panel">
+        <div class="left-panel">
+            <div class="video-container">
+                <div class="video-player">
+                    <img src="wp-content/themes/fitnessfifteen/images/Video-Watermark-fiverr.png">
+                </div>
+            </div>
+        </div>
+        <div class="right-panel">
+            <div class="content-header">NO MORE<br>FRESHMAN FIFTEEN.</div>
+            <div class="p-wrapper">
+                <p>
+                    In a market where personal training is neither affordable nor practical, 
+                    Fitness Fifteen provides the tailored services college students need to 
+                    integrate healthy choices into their current lifestyle.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="section-content dual-panel">
         <div class="left-panel">
             <div class="content-header">NO MORE<br>FRESHMAN FIFTEEN.</div>
             <div class="p-wrapper">
@@ -67,7 +132,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 </section>
 <section id="beta" class="section-body">
     <h1 class="section-head">Summer 16</h1>
