@@ -18,7 +18,7 @@
         <li><a class="page-scroll" href="#beta" onclick="hideNav()">Summer 16</a></li>
         <li><a class="page-scroll" href="#about" onclick="hideNav()">About</a></li>
         <li><a class="page-scroll" href="#blog" onclick="hideNav()">Blog</a></li>
-        <li class="icon">
+        <li id="menuIcon" class="icon">
             <a href="javascript:void(0);" style="font-size:15px;" onclick="navRespond()">☰</a>
         </li>
     </ul>
@@ -37,7 +37,7 @@
         </div>
         <div id="above-fold-head">
             <div class="stacked one">For College Students.</div>
-            <div class="stacked two">By College Students.</div>
+            <div class="button">Video</div>
         </div>
     </section>
     <div class="bottom-banner">
@@ -45,7 +45,7 @@
             <div class="user-input-wrapper">
                 <div class="user-input">
                     <input type="text" name="email" placeholder="john.doe@wustl.edu" autocomplete="off">
-                    <div class="button">Start free trial</div>
+                    <div class="button">Start for free</div>
                 </div>
             </div>
         </div>
@@ -141,10 +141,78 @@
 <section id="about" class="section-body">
     <h1 class="section-head">3 Guys</h1>
     <h1 class="sub-head">(And their advisors...)</h1>
+    <!-- TEAM MEMBERS -->
+    <div id="team-members-list">
+        <div class="teamMemberContainer outer-left">
+            <div class="circleBase team-member-icon Josh"></div>
+            <div class="team-member-name">Joshua Zhou, <span class="highlight">CEO</span></div>
+            <p class="feature-description">Joshua Zhou is a pretty cool guy but he hasnt written his bio yet so we are going to 
+            fill some space until he gets on that. Waiting on you Josh.</p>
+        </div>
+        <div class="teamMemberContainer ">
+            <div class="circleBase team-member-icon Devin"></div>
+            <div class="team-member-name">Devin Goodkin, <span class="highlight">COO</div>
+            <p class="team-member-description">Devin is busy writing 108 workout programs so he hasn't gotten to his bio yet either. Hopefully he has one written by the site's launch.</p>
+        </div>
+        <div class="teamMemberContainer outer-right">
+            <div class="circleBase team-member-icon Brennan"></div>
+            <div class="team-member-name">Brennan Morell, <span class="highlight">CTO</div>
+            <p class="team-member-description">An all around beast, Brennan is waiting to unveil his beautifully crafted bio once
+            the other team members have finished their's up.</p>
+        </div>
+    </div>
+    <!-- ADVISORS -->
+    <div id="advisors-list">
+        <div class="advisorContainer outer-left">
+            <div class="circleBase advisor-icon advisor1"></div>
+            <div class="advisor-name">Advisor 1, <span class="highlight">POSITION</span></div>
+            <p class="advisor-description">This is a description about this advisors startup history/expertise/certifications. Also mentioned is what this advisor brings to the table.</p>
+        </div>
+        <div class="advisorContainer ">
+            <div class="circleBase advisor-icon advisor2"></div>
+            <div class="advisor-name">Advisor 2, <span class="highlight">POSITION</div>
+            <p class="advisor-description">This is a description about this advisors startup history/expertise/certifications. Also mentioned is what this advisor brings to the table.</p>
+        </div>
+        <div class="advisorContainer">
+            <div class="circleBase advisor-icon advisor3"></div>
+            <div class="advisor-name">Advisor 3, <span class="highlight">POSITION</div>
+            <p class="advisor-description">This is a description about this advisors startup history/expertise/certifications. Also mentioned is what this advisor brings to the table.</p>
+        </div>
+        <div class="advisorContainer outer-right">
+            <div class="circleBase advisor-icon advisor4"></div>
+            <div class="advisor-name">Advisor 4, <span class="highlight">POSITION</div>
+            <p class="advisor-description">This is a description about this advisors startup history/expertise/certifications. Also mentioned is what this advisor brings to the table.</p>
+        </div>
+    </div>
 </section>
 <section id="blog" class="section-body">
     <h1 class="section-head">Blog</h1>
     <h1 class="sub-head">(We write stuff for you)</h1>
+    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+        <div id="post-<?php the_ID(); ?>">
+            <span class="title">
+                <strong>Title:</strong>
+                <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
+                    <?php the_title(); ?>
+                </a>
+            </span>
+            <span class="author">
+                Author:
+                <?php the_author(); ?> 
+            </span>
+            <span class="date">
+                Date:
+                <?php echo get_the_date(); //date has to be echoed?> 
+            </span>
+            <span>
+                Excerpt:
+                <?php echo get_the_excerpt() ?> 
+            </span>
+        </div>
+        <br><br> <!-- get rid of these when styling!!! -->
+    <?php endwhile; else : ?>
+    <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+    <?php endif; ?>
 </section>
 <div class="bottom-banner contact"></div>
 <?php get_footer(); ?>
