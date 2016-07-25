@@ -46,7 +46,7 @@ body{
 
 
 .navbar ul li a{
-  color:rgba(255,255,255,.9);
+  color:rgb(255,255,255);
   font-weight:500;
   text-decoration:none;
 }
@@ -208,11 +208,11 @@ textarea:focus, input:focus{
 }
 
 #above-fold-head{
-  background:rgba(0,0,0,.1);
-  margin-top:10%;
+  background:rgba(0,0,0,.2);
+  margin-top:8%;
   margin-left:10%;
-  width:45%;
-  max-width:475px;
+  width:30%;
+  max-width:350px;
   font-size:40px;
   text-align:center;
   padding-top:5%;
@@ -247,7 +247,7 @@ textarea:focus, input:focus{
   bottom:1%;
   left:0;
   bottom:0;
-  background-color:rgba(0,0,0,.2);
+  background-color:rgba(0,0,0,.5);
   display: flex;
   justify-content: center;
 }
@@ -879,6 +879,9 @@ textarea:focus, input:focus{
   /* Location of the image */
   background-image: url(images/icons/png/beer.png);
 }
+
+
+
 
 
 

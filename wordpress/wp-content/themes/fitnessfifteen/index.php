@@ -17,7 +17,8 @@
         <li><a class="page-scroll" href="#features" onclick="hideNav()">Features</a></li>
         <li><a class="page-scroll" href="#beta" onclick="hideNav()">Summer 16</a></li>
         <li><a class="page-scroll" href="#about" onclick="hideNav()">About</a></li>
-        <li><a class="page-scroll" href="#blog" onclick="hideNav()">Blog</a></li>
+        <!--<li><a class="page-scroll" href="#blog" onclick="hideNav()">Blog</a></li>-->
+        <li><a href="blog">Blog</a></li>
         <li id="menuIcon" class="icon">
             <a href="javascript:void(0);" style="font-size:15px;" onclick="navRespond()">☰</a>
         </li>
@@ -36,7 +37,7 @@
             </div>
         </div>
         <div id="above-fold-head">
-            <div class="stacked one">For College Students.</div>
+            <div class="stacked one">Fitness for the College Lifestyle.</div>
             <div class="button">Video</div>
         </div>
     </section>
@@ -162,7 +163,7 @@
         </div>
     </div>
     <!-- ADVISORS -->
-    <div id="advisors-list">
+    <!--<div id="advisors-list">
         <div class="advisorContainer outer-left">
             <div class="circleBase advisor-icon advisor1"></div>
             <div class="advisor-name">Advisor 1, <span class="highlight">POSITION</span></div>
@@ -183,9 +184,9 @@
             <div class="advisor-name">Advisor 4, <span class="highlight">POSITION</div>
             <p class="advisor-description">This is a description about this advisors startup history/expertise/certifications. Also mentioned is what this advisor brings to the table.</p>
         </div>
-    </div>
+    </div>-->
 </section>
-<section id="blog" class="section-body">
+<!--<section id="blog" class="section-body">
     <h1 class="section-head">Blog</h1>
     <h1 class="sub-head">(We write stuff for you)</h1>
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -209,10 +210,10 @@
                 <?php echo get_the_excerpt() ?> 
             </span>
         </div>
-        <br><br> <!-- get rid of these when styling!!! -->
-    <?php endwhile; else : ?>
+        <br><br> --> <!-- get rid of these when styling!!! -->
+    <!--<?php endwhile; else : ?>
     <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
     <?php endif; ?>
-</section>
+</section>-->
 <div class="bottom-banner contact"></div>
 <?php get_footer(); ?>

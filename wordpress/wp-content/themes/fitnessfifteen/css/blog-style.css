@@ -1,0 +1,55 @@
+#posts-list{
+  margin:auto;
+  margin-top:3%;
+  text-align:center;
+  width:100%;
+  padding-bottom:50px;
+}
+
+.postContainer{
+  display:inline-block;
+  margin-left:25px;
+  margin-right:25px;
+  margin-top:50px;
+  width:300px;
+  height:300px;
+  vertical-align:middle;
+}
+
+.post-thumbnail{
+  border-style:solid;
+  border-radius:5px;
+  border-width:2px;
+  border-color:rgba(248, 168, 27,.8);
+  height:55%;
+
+}
+
+.post-title{
+  text-align:left;
+  margin-top:5%;
+  color:rgb(68,68,68);
+  font-size:30px;
+}
+
+
+@media screen and (max-width: 1000px) 
+{
+    .advisor-description
+    {
+       text-align:center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

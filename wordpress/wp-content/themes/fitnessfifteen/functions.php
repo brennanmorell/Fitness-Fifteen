@@ -1,10 +1,13 @@
 <?php
+	/*THEME SUPPORT*/
+	add_theme_support( 'post-thumbnails' ); 
 	/**
 	 * Enqueues Styles
 	 */
 	function add_fitnessfifteen_styles() {
 			wp_enqueue_style( 'font_style', 'https://fonts.googleapis.com/css?family=Roboto'); //enqueue site's google font
 			wp_enqueue_style( 'style', get_stylesheet_uri()); //enqueue style.css
+			wp_enqueue_style( 'blog_style', get_template_directory_uri()."/css/blog-style.css"); //enqueue blog-style.css
 			//wp_enqueue_style( 'style', get_template_directory_uri()."/style-responsive.css"); for other style sheets in fitnessfifteen
 			wp_enqueue_style( 'scrolling_nav_style', get_template_directory_uri()."/css/scrolling-nav.css"); //enqueue scrolling-nav.css
 	}
