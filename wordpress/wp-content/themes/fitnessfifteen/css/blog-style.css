@@ -20,7 +20,7 @@
   border-style:solid;
   border-radius:5px;
   border-width:2px;
-  border-color:rgba(248, 168, 27,.8);
+  border-color:rgb(248, 168, 27);
   height:55%;
 
 }
@@ -32,14 +32,49 @@
   font-size:30px;
 }
 
+/* ============================================================
+  CUSTOM PAGINATION
+============================================================ */
 
-@media screen and (max-width: 1000px) 
-{
-    .advisor-description
-    {
-       text-align:center;
-    }
+.page-numbers.page-num{
+  color:rgb(248, 168, 27);
 }
+
+.custom-pagination span,
+.custom-pagination a {
+  display: inline-block;
+  padding: 2px 10px;
+}
+.custom-pagination a {
+  border-radius:3px;
+  text-decoration:none;
+  background-color: #ebebeb;
+  color:rgb(248, 168, 27);
+}
+.custom-pagination a:hover {
+  background-color: rgb(248, 168, 27);
+  color:white;
+}
+.custom-pagination span.page-num {
+  margin-right: 10px;
+  padding: 0;
+}
+.custom-pagination span.dots {
+  padding: 0;
+  color: gainsboro;
+}
+.custom-pagination span.current {
+  border-radius:3px;
+  background-color: rgb(248, 168, 27);
+  color: white;
+}
+
+blockquote {
+  width: 400px;
+  margin: 0px auto;
+  padding: 10px;
+}
+
 
 
 
