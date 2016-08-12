@@ -1,9 +1,54 @@
+#blog-nav{
+  padding-left:1%;
+  color:rgb(68,68,68);
+}
+
+#blog-nav li{
+  margin-left:1%;
+  margin-right:1%;
+  line-height:50px;
+  display:inline;
+  list-style-type:none;
+  font-size:20px;
+  font-weight:100;
+}
+
+#above-nav{
+  margin:auto;
+  width:65%;
+  text-align:center;
+}
+
+#categories-list{
+  margin-top:10%;
+  height:50px;
+  border-bottom:solid;
+  border-width:5px;
+}
+
+#categories-list .cat-item{
+  margin-left:5%;
+  margin-right:5%;
+  line-height:50px;
+  display:inline;
+  list-style-type:none;
+  font-size:30px;
+  font-weight:bolder;
+}
+
+.cat-item a{
+  color:rgb(68, 68, 68);
+  text-decoration:none;
+  text-transform: uppercase;
+}
+
 #posts-list{
   margin:auto;
-  margin-top:3%;
+ 
   text-align:center;
   width:100%;
   padding-bottom:50px;
+  background:rgba(68,68,68,.1);
 }
 
 .postContainer{
@@ -14,22 +59,19 @@
   width:300px;
   height:300px;
   vertical-align:middle;
+  background:white;
 }
 
 .post-thumbnail{
-  border-style:solid;
-  border-radius:5px;
-  border-width:2px;
-  border-color:rgb(248, 168, 27);
   height:55%;
 
 }
 
 .post-title{
-  text-align:left;
   margin-top:5%;
-  color:rgb(68,68,68);
+  color:black;
   font-size:30px;
+  font-weight:bolder;
 }
 
 /* ============================================================
@@ -37,6 +79,7 @@
 ============================================================ */
 
 .page-numbers.page-num{
+  margin-top:5%;
   color:rgb(248, 168, 27);
 }
 
@@ -74,6 +117,17 @@ blockquote {
   margin: 0px auto;
   padding: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

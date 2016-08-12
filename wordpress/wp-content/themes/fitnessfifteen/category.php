@@ -1,14 +1,4 @@
 <?php get_header(); ?>
-<?php
-  // set up or arguments for our custom query
-  $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
-  $query_args = array(
-    'post_type' => 'post',
-    'paged' => $paged
-  );
-  // create a new instance of WP_Query
-  $the_query = new WP_Query( $query_args );
-?>
 <ul id="blog-nav">
     <li>Home</li>
     <li>Blog</li>
@@ -21,6 +11,25 @@
         wp_list_categories('title_li=0');
     ?>
 </ul>
+
+<?php
+    if (is_category( )) {
+        $cat = get_query_var('cat');
+        $yourcat = get_category ($cat);
+        $slug = $yourcat->slug;
+    }
+?>
+<?php
+  // set up or arguments for our custom query
+  $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+  $query_args = array(
+    'post_type' => 'post',
+    'paged' => $paged,
+    'category_name' => $slug
+  );
+  // create a new instance of WP_Query
+  $the_query = new WP_Query( $query_args );
+?>
     <div id="posts-list">
         <?php if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); // run the loop ?>
             <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">

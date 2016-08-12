@@ -36,10 +36,10 @@
                 <!--</p>-->
             </div>
         </div>
-        <div id="above-fold-head">
+        <!-- <div id="above-fold-head">
             <div class="stacked one">Fitness for the College Lifestyle.</div>
             <div class="button">Video</div>
-        </div>
+        </div> -->
     </section>
     <div class="bottom-banner">
         <div class="action">

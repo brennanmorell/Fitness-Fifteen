@@ -1,3 +1,24 @@
+#blog-nav{
+  padding-left:1%;
+  color:rgb(68,68,68);
+}
+
+#blog-nav li{
+  margin-left:1%;
+  margin-right:1%;
+  line-height:50px;
+  display:inline;
+  list-style-type:none;
+  font-size:20px;
+  font-weight:100;
+}
+
+#above-nav{
+  margin:auto;
+  width:65%;
+  text-align:center;
+}
+
 #post-title{
     padding-top:2%;
     padding-left:10%;
