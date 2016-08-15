@@ -45,33 +45,56 @@
         <div class="action">
             <div class="user-input-wrapper">
                 <div class="user-input">
-                    <input type="text" name="email" placeholder="john.doe@wustl.edu" autocomplete="off">
-                    <div class="button">Start for free</div>
+                    <input id="email-init" type="text" name="email" placeholder="john.doe@wustl.edu" autocomplete="off">
+                    <div id="start-init" class="button">Start for free</div>
                 </div>
+                <div id="init-message">Enter valid .edu email to continue</div>
             </div>
         </div>
     </div>
 </div>
-<section id="features" class="section-body">
-    <div class="section-content dual-panel">
-        <!-- Personalized Workouts, Campus-Specific Nutrition, Immediate Feedback, Flexibility 
-        http://metalab.co/company/ -->
-        <div class="left-panel">
-            <div class="content-header">NO MORE<br>FRESHMAN FIFTEEN.</div>
-            <div class="p-wrapper">
-                <p>
-                    In a market where personal training is neither affordable nor practical, 
-                    Fitness Fifteen provides the tailored services college students need to 
-                    integrate healthy choices into their current lifestyle.
-                </p>
-            </div>
-        </div>
-        <div class="right-panel">
-            <div class="video-container">
-                <div class="video-player">
-                    <!--<img src="wp-content/themes/fitnessfifteen/images/">-->
+<div class="modal fade" id="userSignupForm" role="dialog">
+    <div class="modal-dialog">  
+    <!-- Modal content-->
+    <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title">Get it.</div>
+          </div>
+          <div class="modal-body">
+            <form role="form">
+                <div class="form-group">
+                    <label for="email">Email <span class="highlight">*</span></label>
+                    <input type="email" class="form-control" id="email">
                 </div>
+                <div class="form-group">
+                    <label for="first">First <span class="highlight">*</span></label>
+                    <input type="text" class="form-control" id="first">
+                </div>
+                <div class="form-group">
+                    <label for="last">Last <span class="highlight">*</span></label>
+                    <input type="text" class="form-control" id="last">
+                </div>
+            </form>
+            <div id="signup-wrapper">
+                <div id="signup" type="submit">Submit</div>
             </div>
+          </div>
+          <div class="modal-footer">
+            By signing up for Fitness Fifteen, you agree to our site's <a>terms of use</a>.
+          </div>
+      </div>
+    </div>
+</div>
+<section id="features" class="section-body">
+    <div class="section-content">
+        <!-- Personalized Workouts, Campus-Specific Nutrition, Immediate Feedback, Flexibility -->
+        <div class="content-header">NO MORE FRESHMAN FIFTEEN.</div>
+        <div class="p-wrapper">
+            <p>
+                In a market where personal training is neither affordable nor practical, 
+                Fitness Fifteen provides the tailored services college students need to 
+                integrate healthy choices into their current lifestyle.
+            </p>
         </div>
     </div>
     <div id="features-list">
@@ -96,44 +119,6 @@
             <p class="feature-description">The purpose of our service isn’t to have fitness take over your life, but to help you integrate healthy habits into the college lifestyle. You can still drink natty. You can still eat Chiptole.</p>
         </div>
     </div>
-    <!--<div class="section-content dual-panel">
-        <div class="left-panel">
-            <div class="video-container">
-                <div class="video-player">
-                    <img src="wp-content/themes/fitnessfifteen/images/Video-Watermark-fiverr.png">
-                </div>
-            </div>
-        </div>
-        <div class="right-panel">
-            <div class="content-header">NO MORE<br>FRESHMAN FIFTEEN.</div>
-            <div class="p-wrapper">
-                <p>
-                    In a market where personal training is neither affordable nor practical, 
-                    Fitness Fifteen provides the tailored services college students need to 
-                    integrate healthy choices into their current lifestyle.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="section-content dual-panel">
-        <div class="left-panel">
-            <div class="content-header">NO MORE<br>FRESHMAN FIFTEEN.</div>
-            <div class="p-wrapper">
-                <p>
-                    In a market where personal training is neither affordable nor practical, 
-                    Fitness Fifteen provides the tailored services college students need to 
-                    integrate healthy choices into their current lifestyle.
-                </p>
-            </div>
-        </div>
-        <div class="right-panel">
-            <div class="video-container">
-                <div class="video-player">
-                    <img src="wp-content/themes/fitnessfifteen/images/Video-Watermark-fiverr.png">
-                </div>
-            </div>
-        </div>
-    </div>-->
 </section>
 <section id="beta" class="section-body">
     <h1 class="section-head">Summer 16</h1>

@@ -5,21 +5,38 @@
 	 * Enqueues Styles
 	 */
 	function add_fitnessfifteen_styles() {
-			wp_enqueue_style( 'font_style', 'https://fonts.googleapis.com/css?family=Roboto'); //enqueue site's google font
-			wp_enqueue_style( 'style', get_stylesheet_uri()); //enqueue style.css
-			wp_enqueue_style( 'blog_style', get_template_directory_uri()."/css/blog-style.css"); //enqueue blog-style.css
-			wp_enqueue_style( 'post_style', get_template_directory_uri()."/css/post-style.css"); //enqueue blog-style.css
-			wp_enqueue_style( 'scrolling_nav_style', get_template_directory_uri()."/css/scrolling-nav.css"); //enqueue scrolling-nav.css
+			//enqueue site's google font
+			wp_enqueue_style( 'font_style', "https://fonts.googleapis.com/css?family=Roboto");
+			 //enqueue bootstrap stylesheet
+			wp_enqueue_style( 'bootstrap_style', "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+			//enqueue boostrap theme stylesheet
+			wp_enqueue_style( 'bootstrap_theme_style', "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css");
+			//enqueue main stylesheet
+			wp_enqueue_style( 'style', get_stylesheet_uri());
+			//enqueue stylesheet for blog
+			wp_enqueue_style( 'blog_style', get_template_directory_uri()."/css/blog-style.css");
+			//enqueue stylesheet for individual posts
+			wp_enqueue_style( 'post_style', get_template_directory_uri()."/css/post-style.css");
+			//enqueue stylesheet for scrolling nav
+			wp_enqueue_style( 'scrolling_nav_style', get_template_directory_uri()."/css/scrolling-nav.css");
 	}
 	add_action( 'wp_enqueue_scripts', 'add_fitnessfifteen_styles' );
 	/**
 	* Enqueues Scripts
 	*/
 	function add_fitnessfifteen_scripts(){
+		//enqueue jquery script
 		wp_enqueue_script('jquery');
+		//enqueue bootstrap script
+		wp_enqueue_script('boostrap_script', "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js");
+		//enqueue easing animation for scroll
 		wp_enqueue_script('easing_script',get_template_directory_uri()."/js/jquery.easing.min.js");
+		//enqueue scrolling nav script
 		wp_enqueue_script('scrolling_nav_script',get_template_directory_uri()."/js/scrolling-nav.js");
+		//enqueue script for making nav responsive
 		wp_enqueue_script('responsive_script',get_template_directory_uri()."/js/responsiveScript.js");
+		//enqueue script for signing up users
+		wp_enqueue_script('signup_script',get_template_directory_uri()."/js/signup-script.js");
 	}
 	add_action( 'wp_enqueue_scripts', 'add_fitnessfifteen_scripts' );
 	/*
