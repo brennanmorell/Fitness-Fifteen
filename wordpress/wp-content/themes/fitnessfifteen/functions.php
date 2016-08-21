@@ -7,6 +7,8 @@
 	function add_fitnessfifteen_styles() {
 			//enqueue site's google font
 			wp_enqueue_style( 'font_style', "https://fonts.googleapis.com/css?family=Roboto");
+			//enqueue site's logo font
+			wp_enqueue_style( 'logo_style', get_template_directory_uri()."/css/logo-style.css");
 			 //enqueue bootstrap stylesheet
 			wp_enqueue_style( 'bootstrap_style', "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
 			//enqueue boostrap theme stylesheet

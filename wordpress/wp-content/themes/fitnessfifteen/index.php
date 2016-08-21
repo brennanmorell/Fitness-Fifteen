@@ -27,14 +27,15 @@
 <div id="main" class="above-fold">
     <section id="home">
         <div id="above-fold-content">
-            <h1>FITNESS <span class="highlight">FIFTEEN</span></h1>
-            <div id="description">
+            <div id="logo-head"><img src="wp-content/themes/fitnessfifteen/images/Fitness-1.svg"></div>
+            <!--<h1>FITNESS <span class="highlight">FIFTEEN</span></h1>
+            <div id="description">-->
                 <!--<div id="description-header">No More Freshman 15</div>-->
                 <!--Custom workouts and campus-specific nutrition for college students, by college students.-->
                 <!--<p id="description-sub">-->
-                    PERSONALIZED WORKOUTS <span class="highlight division">|</span> CAMPUS-SPECIFIC NUTRITION
+                    <!--PERSONALIZED WORKOUTS <span class="highlight division">|</span> CAMPUS-SPECIFIC NUTRITION-->
                 <!--</p>-->
-            </div>
+            <!--</div>-->
         </div>
         <!-- <div id="above-fold-head">
             <div class="stacked one">Fitness for the College Lifestyle.</div>
@@ -58,7 +59,8 @@
     <!-- Modal content-->
     <div class="modal-content">
           <div class="modal-header">
-            <div class="modal-title">Get it.</div>
+            <div class="modal-title start">Get it.</div>
+            <div class="modal-title confirmation">Stoked to have you.</div>
           </div>
           <div class="modal-body">
             <form role="form">
@@ -79,6 +81,13 @@
                 <div id="signup" type="submit">Submit</div>
             </div>
           </div>
+          <div class="signup-confirmation">
+            <div class="signup-confirmation-message">
+                We'll reach out in a bit with a survey and some info to get your trial started. 
+                If it takes us a bit, don't fret. We're probably at the gym.
+            <div class="signup-signoff"><span class="highlight">--</span>Brennnan, Devin, and Josh</div>
+            </div>
+          </div>
           <div class="modal-footer">
             By signing up for Fitness Fifteen, you agree to our site's <a>terms of use</a>.
           </div>
@@ -89,6 +98,7 @@
     <div class="section-content">
         <!-- Personalized Workouts, Campus-Specific Nutrition, Immediate Feedback, Flexibility -->
         <div class="content-header">NO MORE FRESHMAN FIFTEEN.</div>
+        <hr>
         <div class="p-wrapper">
             <p>
                 In a market where personal training is neither affordable nor practical, 
@@ -97,6 +107,7 @@
             </p>
         </div>
     </div>
+    <hr>
     <div id="features-list">
         <div class="featureContainer outer-left">
             <div class="circleBase feature-icon workouts"></div>
@@ -121,12 +132,31 @@
     </div>
 </section>
 <section id="beta" class="section-body">
-    <h1 class="section-head">Summer 16</h1>
-    <h1 class="sub-head">(Beta testers)</h1>
+    <div class="image-cover-lg">
+        <h1 class="section-head">Summer 16</h1>
+        <h1 class="sub-head highlight">( Got fit and loved our sh*t )</h1>
+    </div>
+    <div id="clients-container">
+        <table class="client-grid">
+            <tbody>
+                <tr><td class="client-text-delim"><div class="client-text">"Before Fitness Fifteen, I don't even know what to write. Honestly, I'm just making this up as I go along. But I love it. Fitness Fifteen that is. They helped me become the man I am today."</div></td><td class="client-image-delim"></td></tr>
+            </tbody>
+        </table>
+        <table class="client-grid">
+            <tbody>
+                <tr><td class="client-image-delim"></td><td class="client-text-delim"><div class="client-text">"Before Fitness Fifteen, I don't even know what to write. Honestly, I'm just making this up as I go along. But I love it. Fitness Fifteen that is. They helped me become the man I am today."</div></td></tr>
+            </tbody>
+        </table>
+        <table class="client-grid">
+            <tbody>
+                <tr><td class="client-text-delim"><div class="client-text">"Before Fitness Fifteen, I don't even know what to write. Honestly, I'm just making this up as I go along. But I love it. Fitness Fifteen that is. They helped me become the man I am today."</div></td><td class="client-image-delim"></td></tr>
+            </tbody>
+        </table>
+    </div>
 </section>
 <section id="about" class="section-body">
     <h1 class="section-head">3 Guys</h1>
-    <h1 class="sub-head">(And their advisors...)</h1>
+    <h1 class="sub-head highlight">( +2 Girls )</h1>
     <!-- TEAM MEMBERS -->
     <div id="team-members-list">
         <div class="teamMemberContainer outer-left">

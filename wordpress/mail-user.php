@@ -2,8 +2,12 @@
 
 require_once "/usr/local/bin/vendor/autoload.php";
 
-	if(isset($_POST["email"])){
+	if(isset($_POST["email"]) && isset($_POST['first']) && isset($_POST['last'])){
 		$email = $_POST["email"];
+		$first = $_POST["first"];
+		$last = $_POST["last"];
+		$date = date('Y:m:d H:i:s');
+
 		//PHPMailer Object
 		$mail = new PHPMailer;
 
@@ -27,7 +31,7 @@ require_once "/usr/local/bin/vendor/autoload.php";
 		//$mail->isHTML(true);
 
 		$mail->Subject = "New User Notification";
-		$mail->Body = "A new user has signed up at fitnessfifteen.com Email: ".$email;
+		$mail->Body = "A new user has signed up at fitnessfifteen.com Email: ".$email ." First: ".$first." Last: ".$last." Signup Date: ".$date;
 		//$mail->AltBody = "This is the plain text version of the email content";
 
 		if(!$mail->send()) 
