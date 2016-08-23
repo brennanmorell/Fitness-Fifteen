@@ -503,7 +503,8 @@ textarea:focus, input:focus{
 .section-body{
     width:100%;
     min-height:750px;
-    padding-top:60px;    
+    padding-top:60px;
+    padding-bottom:10%;    
     background:white;
 }
 
@@ -733,6 +734,7 @@ textarea:focus, input:focus{
 .section-body#beta{
   margin:auto;
   margin-bottom:5%;
+  padding-top:0; /*so scroll goes over image in this case */
 }
 
 .section-body#beta .section-head{
@@ -750,17 +752,33 @@ textarea:focus, input:focus{
   background-image: url(images/sorority-beach.jpg);
 }
 
+.w3-display-container{
+  max-width:100% !important;
+  width:100%;
+  height:475px;
+  overflow:hidden;
+}
+
 #clients-container{
-  margin-top:5%;
+  margin-top:10%
+}
+
+@media screen and (max-width: 500px) 
+{
+    #clients-container
+    {
+      margin-top:15%;
+    }
 }
 
 .client-grid{
   margin:auto;
+  width:90%;
   margin-top:5%;
 }
 
 .client-image-delim{
-  width:550px;
+  width:50%;
   height:325px;
   text-align:center;
   /* Location of the image */
@@ -785,13 +803,13 @@ textarea:focus, input:focus{
     .client-image-delim
     {
        margin:auto;
-       width:80%;
+       width:90%;
        display:block;
     }
 }
 
 .client-text-delim{
-  width:550px;
+  width:50%;
   height:325px;
   text-align:center;
   background:white;
@@ -804,7 +822,7 @@ textarea:focus, input:focus{
        margin:auto;
        margin-top:25px;
        margin-bottom:25px;
-       width:80%;
+       width:100%;
        height:200px;
        display:block;
     }
@@ -1038,28 +1056,6 @@ textarea:focus, input:focus{
   /* Location of the image */
   background-image: url(images/icons/png/beer.png);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

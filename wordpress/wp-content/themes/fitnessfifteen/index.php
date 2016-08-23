@@ -27,7 +27,7 @@
 <div id="main" class="above-fold">
     <section id="home">
         <div id="above-fold-content">
-            <div id="logo-head"><img src="wp-content/themes/fitnessfifteen/images/logo-package/Fitness-1.svg"></div>
+            <div id="logo-head"><img src="wp-content/themes/fitnessfifteen/images/logo-package/Fitness-3.svg"></div>
             <!--<h1>FITNESS <span class="highlight">FIFTEEN</span></h1>
             <div id="description">-->
                 <!--<div id="description-header">No More Freshman 15</div>-->
@@ -101,9 +101,9 @@
         <hr>
         <div class="p-wrapper">
             <p>
-                In a market where personal training is neither affordable nor practical, 
+               <i>"In a market where personal training is neither affordable nor practical, 
                 Fitness Fifteen provides the tailored services college students need to 
-                integrate healthy choices into their current lifestyle.
+                integrate healthy choices into their unruly, binge-drinking filled, lifestyles." <b>- Your Chancellor</b></i>
             </p>
         </div>
     </div>
@@ -132,24 +132,50 @@
     </div>
 </section>
 <section id="beta" class="section-body">
-    <div class="image-cover-lg">
+   <!-- <div class="image-cover-lg">
         <h1 class="section-head">Summer 16</h1>
         <h1 class="sub-head highlight">( Got fit and loved our sh*t )</h1>
+    </div> -->
+
+   <!-- <div class="w3-content w3-display-container">
+      <img class="mySlides" src="wp-content/themes/fitnessfifteen/images/sorority-beach.jpg" style="width:100%">
+      <img class="mySlides" src="wp-content/themes/fitnessfifteen/images/fraternity-beach.jpg" style="width:100%">
+      <img class="mySlides" src="wp-content/themes/fitnessfifteen/images/fraternity-beach.jpg" style="width:100%">
+      <div class="w3-center w3-section w3-large w3-text-white w3-display-bottomleft" style="width:100%">
+        <div class="w3-left w3-padding-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+        <div class="w3-right w3-padding-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div> -->
+    <div class="w3-content w3-display-container">
+      <img class="mySlides" src="wp-content/themes/fitnessfifteen/images/sorority-beach.jpg" style="width:100%">
+      <img class="mySlides" src="wp-content/themes/fitnessfifteen/images/fraternity-beach.jpg" style="width:100%">
+      <img class="mySlides" src="wp-content/themes/fitnessfifteen/images/fraternity-beach.jpg" style="width:100%">
+      <div class="w3-center w3-section w3-large w3-text-white w3-display-bottomleft" style="width:100%">
+        <div class="w3-left w3-padding-left w3-hover-text-khaki">&#10094;</div>
+        <div class="w3-right w3-padding-right w3-hover-text-khaki">&#10095;</div>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white"></span>
+      </div>
     </div>
+
     <div id="clients-container">
         <table class="client-grid">
             <tbody>
-                <tr><td class="client-text-delim"><div class="client-text">"Before Fitness Fifteen, I don't even know what to write. Honestly, I'm just making this up as I go along. But I love it. Fitness Fifteen that is. They helped me become the man I am today."</div></td><td class="client-image-delim"></td></tr>
+                <tr><td class="client-image-delim"></td><td class="client-text-delim"><div class="client-text">"Before Fitness Fifteen, I don't even know what to write. Honestly, I'm just making this up as I go along. But I love it. Fitness Fifteen that is. They helped me become the man I am today."</div></td></tr>
             </tbody>
         </table>
         <table class="client-grid">
             <tbody>
-                <tr><td class="client-text-delim"><div class="client-text">"Before Fitness Fifteen, I don't even know what to write. Honestly, I'm just making this up as I go along. But I love it. Fitness Fifteen that is. They helped me become the man I am today."</div></td><td class="client-image-delim"></td></tr>
+                <tr><td class="client-image-delim"></td><td class="client-text-delim"><div class="client-text">"Before Fitness Fifteen, I don't even know what to write. Honestly, I'm just making this up as I go along. But I love it. Fitness Fifteen that is. They helped me become the man I am today."</div></td></tr>
             </tbody>
         </table>
         <table class="client-grid">
             <tbody>
-                <tr><td class="client-text-delim"><div class="client-text">"Before Fitness Fifteen, I don't even know what to write. Honestly, I'm just making this up as I go along. But I love it. Fitness Fifteen that is. They helped me become the man I am today."</div></td><td class="client-image-delim"></td></tr>
+                <tr><td class="client-image-delim"></td><td class="client-text-delim"><div class="client-text">"Before Fitness Fifteen, I don't even know what to write. Honestly, I'm just making this up as I go along. But I love it. Fitness Fifteen that is. They helped me become the man I am today."</div></td></tr>
             </tbody>
         </table>
     </div>

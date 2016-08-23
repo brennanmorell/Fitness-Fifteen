@@ -21,6 +21,10 @@
 			wp_enqueue_style( 'post_style', get_template_directory_uri()."/css/post-style.css");
 			//enqueue stylesheet for scrolling nav
 			wp_enqueue_style( 'scrolling_nav_style', get_template_directory_uri()."/css/scrolling-nav.css");
+			//enqueue stylesheet for w3
+			wp_enqueue_style( 'w3_style', "http://www.w3schools.com/lib/w3.css");
+			//enqueue stylesheet for slide
+			wp_enqueue_style( 'slide_style', get_template_directory_uri()."/css/slide-style.css");
 	}
 	add_action( 'wp_enqueue_scripts', 'add_fitnessfifteen_styles' );
 	/**
@@ -39,6 +43,8 @@
 		wp_enqueue_script('responsive_script',get_template_directory_uri()."/js/responsiveScript.js");
 		//enqueue script for signing up users
 		wp_enqueue_script('signup_script',get_template_directory_uri()."/js/signup-script.js");
+		//enqueue script for slide
+		wp_enqueue_script('slide_script',get_template_directory_uri()."/js/slide-script.js");
 	}
 	add_action( 'wp_enqueue_scripts', 'add_fitnessfifteen_scripts' );
 	/*
