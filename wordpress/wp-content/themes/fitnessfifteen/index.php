@@ -27,7 +27,7 @@
 <div id="main" class="above-fold">
     <section id="home">
         <div id="above-fold-content">
-            <div id="logo-head"><img src="wp-content/themes/fitnessfifteen/images/Fitness-1.svg"></div>
+            <div id="logo-head"><img src="wp-content/themes/fitnessfifteen/images/logo-package/Fitness-1.svg"></div>
             <!--<h1>FITNESS <span class="highlight">FIFTEEN</span></h1>
             <div id="description">-->
                 <!--<div id="description-header">No More Freshman 15</div>-->
@@ -144,7 +144,7 @@
         </table>
         <table class="client-grid">
             <tbody>
-                <tr><td class="client-image-delim"></td><td class="client-text-delim"><div class="client-text">"Before Fitness Fifteen, I don't even know what to write. Honestly, I'm just making this up as I go along. But I love it. Fitness Fifteen that is. They helped me become the man I am today."</div></td></tr>
+                <tr><td class="client-text-delim"><div class="client-text">"Before Fitness Fifteen, I don't even know what to write. Honestly, I'm just making this up as I go along. But I love it. Fitness Fifteen that is. They helped me become the man I am today."</div></td><td class="client-image-delim"></td></tr>
             </tbody>
         </table>
         <table class="client-grid">

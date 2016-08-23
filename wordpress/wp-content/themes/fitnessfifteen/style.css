@@ -246,6 +246,29 @@ textarea:focus, input:focus{
   
 }
 
+#logo-head{
+  margin:auto;
+  margin-top:5%;
+  width:70%;
+}
+
+@media only screen and (max-width: 800px) {
+
+   #logo-head{
+     margin-top:55%;
+     width:100%;
+   }
+  
+}
+
+@media only screen and (max-width: 500px) {
+
+   #logo-head{
+     margin-top:30%;
+   }
+  
+}
+
 
 #above-fold-head .button{
   margin:auto;
@@ -373,19 +396,19 @@ textarea:focus, input:focus{
 
 @media only screen and (max-width: 500px) {
 
-   ::-webkit-input-placeholder { font-size:20px; }
+   ::-webkit-input-placeholder { font-size:15px; }
   
 }
 
 :-moz-placeholder { /* Firefox 18- */
    color: lightgray;
    font-weight:100;
-   font-size:25px;
+   font-size:20px;
 }
 
 @media only screen and (max-width: 500px) {
 
-   :-moz-placeholder { font-size:20px; }
+   :-moz-placeholder { font-size:15px; }
   
 }
 
@@ -397,7 +420,7 @@ textarea:focus, input:focus{
 
 @media only screen and (max-width: 500px) {
 
-   ::-moz-placeholder { font-size:20px; }
+   ::-moz-placeholder { font-size:15px; }
   
 }
 
@@ -409,7 +432,7 @@ textarea:focus, input:focus{
 
 @media only screen and (max-width: 500px) {
 
-   :-ms-input-placeholder { font-size:20px; }
+   :-ms-input-placeholder { font-size:15px; }
   
 }
 
@@ -757,11 +780,34 @@ textarea:focus, input:focus{
   background-size: 575px;
 }
 
+@media screen and (max-width: 500px) 
+{
+    .client-image-delim
+    {
+       margin:auto;
+       width:80%;
+       display:block;
+    }
+}
+
 .client-text-delim{
   width:550px;
   height:325px;
   text-align:center;
   background:white;
+}
+
+@media screen and (max-width: 500px) 
+{
+    .client-text-delim
+    {
+       margin:auto;
+       margin-top:25px;
+       margin-bottom:25px;
+       width:80%;
+       height:200px;
+       display:block;
+    }
 }
 
 .client-text-delim .client-text{
@@ -773,6 +819,13 @@ textarea:focus, input:focus{
   font-weight:600;
 }
 
+@media screen and (max-width: 500px) 
+{
+    .client-text-delim .client-text
+    {
+       font-size:20px;
+    }
+}
 
 #team-members-list{
   margin:auto;
@@ -985,6 +1038,9 @@ textarea:focus, input:focus{
   /* Location of the image */
   background-image: url(images/icons/png/beer.png);
 }
+
+
+
 
 
 
