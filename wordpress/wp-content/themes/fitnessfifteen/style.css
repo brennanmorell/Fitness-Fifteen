@@ -608,6 +608,12 @@ textarea:focus, input:focus{
   color:rgba(68,68,68,.8);
 }
 
+.section-body .section-content #quote-by{
+  color:rgba(68,68,68,.8) !important;
+  font-size:30px;
+  text-align:center;
+}
+
 @media only screen and (max-width: 500px) {
 
    .section-body .section-content .p-wrapper p{ font-size:20px; }
@@ -731,6 +737,8 @@ textarea:focus, input:focus{
 }
 
 /*SUMMER 16 BETA TESTER RESULTS SECTION*/
+
+
 .section-body#beta{
   margin:auto;
   margin-bottom:5%;
@@ -757,9 +765,24 @@ textarea:focus, input:focus{
   width:100%;
   height:475px;
   overflow:hidden;
+  background:rgba(248, 168, 27,.8);
 }
 
-#clients-container{
+.w3-display-container .section-head.slide{
+  position:absolute;
+  top:50px;
+  z-index:1000;
+}
+
+.w3-display-container .sub-head.slide{
+  position:absolute;
+  z-index:1000;
+  top:150px;
+  left:25%;
+  width:50%;
+}
+
+/*#clients-container{
   margin-top:10%
 }
 
@@ -780,6 +803,60 @@ textarea:focus, input:focus{
 .client-image-delim{
   width:50%;
   height:325px;
+  text-align:center;
+  /* Location of the image */
+  /*background-image: url(images/eric-chao.jpg);*/
+    /* Background image is centered vertically and horizontally at all times */
+  /*background-position: center center;*/
+  
+  /* Background image doesn't tile */
+  /*background-repeat: no-repeat;*/
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+ *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *      the content's height is greater than the image's height */
+  /*background-attachment: fixed;*/
+  
+  /* This is what makes the background image rescale based
+ *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *      on the container's size */
+  /*background-size: 575px;*/
+/*}*/
+#clients-container{
+  margin:auto;
+  margin-top:5%;
+  width:1040px;
+  display:table;
+  overflow: hidden;
+  position: relative;
+}
+
+#clients-container .client-grid{
+  border-collapse:separate;
+  border-spacing:10px;
+}
+
+#large-img-container{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width:420px;
+  height:580px;
+  padding-top:10px;
+  padding-left:10px;
+  padding-bottom:10px;
+  float:right;
+}
+
+#large-img-container img{
+  height:100%;
+}
+
+#grid-container{
+  float:right;
+}
+
+.client-image-delim{
+  width:275px;
+  height:275px;
   text-align:center;
   /* Location of the image */
   background-image: url(images/eric-chao.jpg);
@@ -834,7 +911,6 @@ textarea:focus, input:focus{
   height:80%;
   text-align:left;
   font-size:30px;
-  font-weight:600;
 }
 
 @media screen and (max-width: 500px) 
@@ -1056,6 +1132,25 @@ textarea:focus, input:focus{
   /* Location of the image */
   background-image: url(images/icons/png/beer.png);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

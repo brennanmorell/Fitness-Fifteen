@@ -47,7 +47,7 @@ function carousel() {
      dots[i].className = dots[i].className.replace(" w3-white", "");
     }
     dots[slideIndex-1].className += " w3-white";
-    setTimeout(carousel, 2000); // Change image every 2 seconds
+    setTimeout(carousel, 8000); // Change image every 8 seconds
 }
 
 $(document).ready(function() {
