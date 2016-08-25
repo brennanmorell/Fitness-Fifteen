@@ -54,12 +54,13 @@ function processInput(userEmail, userFirst, userLast){
 				}
 				else{
 					console.log("Message: " + data.message);
+					$("#signup-error-msg").html("*" + data.message);
 				}
 			}
 		});
 	}
 	else{
-		console.log("Not an .edu email address");
+		$("#signup-error-msg").html("*Email must be a valid .edu address.");
 	}
 }
 
@@ -79,6 +80,7 @@ function writeUserDBAjax(userEmail, userFirst, userLast){
 			}
 			else{
 				console.log("Message: " + data.message);
+				$("#signup-error-msg").html("*" + data.message);
 			}
 		}
 	});

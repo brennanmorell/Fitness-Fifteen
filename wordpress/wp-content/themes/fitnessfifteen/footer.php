@@ -5,8 +5,8 @@
 					<img src="wp-content/themes/fitnessfifteen/images/logo-package/FF-White.svg">
 				</div>
 				<div id="connect">
+					<div id="connect-social"><?php echo DISPLAY_ULTIMATE_PLUS(); ?></div>
 					<div id="connect-email">fitnessfifteen@hotmail.com</div>
-					<div id="connect-instagram"><?php echo DISPLAY_ULTIMATE_PLUS(); ?></div>
 				</div>
 				<hr>
 				<table class="contact-info">

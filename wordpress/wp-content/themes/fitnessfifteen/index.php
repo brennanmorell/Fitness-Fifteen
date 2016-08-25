@@ -78,6 +78,7 @@
                 </div>
             </form>
             <div id="signup-wrapper">
+                <div id="signup-error-msg"></div>
                 <div id="signup" type="submit">Submit</div>
             </div>
           </div>
@@ -85,7 +86,7 @@
             <div class="signup-confirmation-message">
                 We'll reach out in a bit with a survey and some info to get your trial started. 
                 If it takes us a bit, don't fret. We're probably at the gym.
-            <div class="signup-signoff"><span class="highlight">--</span>Brennnan, Devin, and Josh</div>
+            <div class="signup-signoff"><span class="highlight">-</span>Fitness 15 Team</div>
             </div>
           </div>
           <div class="modal-footer">
@@ -211,21 +212,21 @@
     <!-- TEAM MEMBERS -->
     <div id="team-members-list">
         <div class="teamMemberContainer outer-left">
-            <div class="circleBase team-member-icon Josh"></div>
-            <div class="team-member-name">Joshua Zhou, <span class="highlight">CEO</span></div>
-            <p class="feature-description">Joshua Zhou is a pretty cool guy but he hasnt written his bio yet so we are going to 
-            fill some space until he gets on that. Waiting on you Josh.</p>
+            <div class="circleBase team-member-icon Brennan"></div>
+            <div class="team-member-name">Brennan Morell, <span class="highlight">Tech</div>
+            <p class="team-member-description">An all around beast, Brennan is waiting to unveil his beautifully crafted bio once
+            the other team members have finished their's up.</p>
         </div>
         <div class="teamMemberContainer ">
             <div class="circleBase team-member-icon Devin"></div>
-            <div class="team-member-name">Devin Goodkin, <span class="highlight">COO</div>
+            <div class="team-member-name">Devin Goodkin, <span class="highlight">Product</div>
             <p class="team-member-description">Devin is busy writing 108 workout programs so he hasn't gotten to his bio yet either. Hopefully he has one written by the site's launch.</p>
         </div>
         <div class="teamMemberContainer outer-right">
-            <div class="circleBase team-member-icon Brennan"></div>
-            <div class="team-member-name">Brennan Morell, <span class="highlight">CTO</div>
-            <p class="team-member-description">An all around beast, Brennan is waiting to unveil his beautifully crafted bio once
-            the other team members have finished their's up.</p>
+            <div class="circleBase team-member-icon Josh"></div>
+            <div class="team-member-name">Joshua Zhou, <span class="highlight">Business</span></div>
+            <p class="feature-description">Joshua Zhou is a pretty cool guy but he hasnt written his bio yet so we are going to 
+            fill some space until he gets on that. Waiting on you Josh.</p>
         </div>
     </div>
     <!-- ADVISORS -->
