@@ -17,8 +17,9 @@ require_once "/usr/local/bin/vendor/autoload.php";
 		$mail->FromName = "Brennan Morell";
 
 		//To address and name
-		$mail->addAddress("bpmorell13@yahoo.com", "Brennan Morell2");
-		$mail->addAddress("bpmorell13@yahoo.com"); //Recipient name is optional
+		//$mail->addAddress("bpmorell13@yahoo.com", "Brennan Morell2");
+		//$mail->addAddress("bpmorell13@yahoo.com"); //Recipient name is optional
+		$mail->addAddress("fitnessfifteen@hotmail.com"); //Recipient name is optional
 
 		//Address to which recipient will reply
 		$mail->addReplyTo("b.morell@wustl.edu", "Reply");

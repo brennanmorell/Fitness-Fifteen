@@ -89,7 +89,7 @@
             </div>
           </div>
           <div class="modal-footer">
-            By signing up for Fitness Fifteen, you agree to our site's <a>terms of use</a>.
+            By signing up for Fitness Fifteen, you agree to our site's <a href="terms.html">terms of use</a>.
           </div>
       </div>
     </div>
@@ -130,6 +130,9 @@
             <div class="feature-name">Flexibility</div>
             <p class="feature-description">The purpose of our service isn’t to have fitness take over your life, but to help you integrate healthy habits into the college lifestyle. You can still drink natty. You can still eat Chiptole.</p>
         </div>
+    </div>
+    <div id="graphic-image-container">
+        <img src="wp-content/themes/fitnessfifteen/images/before-after.svg">
     </div>
 </section>
 <section id="beta" class="section-body">
@@ -189,8 +192,14 @@
         <div id="grid-container">
             <table class="client-grid">
                 <tbody>
-                    <tr><td class="client-image-delim"></td><td class="client-image-delim"></td></tr>
-                    <tr><td class="client-image-delim"></td><td class="client-image-delim"></td></tr>
+                    <tr>
+                        <td class="client-image-delim"><img src="wp-content/themes/fitnessfifteen/images/dylan-shlaughter.jpg"></td>
+                        <td class="client-image-delim"><img src="wp-content/themes/fitnessfifteen/images/eric-chao.jpg"></td>
+                    </tr>
+                    <tr>
+                        <td class="client-image-delim"><img src="wp-content/themes/fitnessfifteen/images/collin-morell.jpg"></td>
+                        <td class="client-image-delim"><img src="wp-content/themes/fitnessfifteen/images/ed-shelley.jpg"></td>
+                    </tr>
                 </tbody>
             </table>
         </div>
