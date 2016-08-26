@@ -1,3 +1,4 @@
+
 *{
   margin:0;
   padding:0;
@@ -750,7 +751,7 @@ textarea:focus, input:focus{
   border-width:2px
 }
 
-/*SUMMER 16 BETA TESTER RESULTS SECTION*/
+/*SUMMER 16 BETA TESTER SECTION*/
 
 
 .section-body#beta{
@@ -799,10 +800,41 @@ textarea:focus, input:focus{
 #clients-container{
   margin:auto;
   margin-top:5%;
-  width:1040px;
+  width:1039px;
   display:table;
   overflow: hidden;
   position: relative;
+}
+
+.client-info{
+  position:absolute;
+  padding-left:10px;
+  color:white;
+  z-index:100;
+  display:none;
+}
+
+.client-testimonial{
+  position:absolute;
+  width:275px;
+  height:275px;
+  text-align:center;
+  padding-top:100px;
+  padding-left:5px;
+  padding-right:5px;
+  line-height:25px;
+  color:white;
+  z-index:100;
+  display:none;
+}
+
+#client-feat-testimonial{
+  width:450px;
+  height:560px;
+  padding-top:150px;
+  padding-left:25px;
+  padding-right:25px;
+  line-height:45px;
 }
 
 #clients-container .client-grid{
@@ -822,7 +854,12 @@ textarea:focus, input:focus{
   float:right;
 }
 
-#large-img-container img{
+#large-img-container .large-img-cover{
+  height:100%;
+  width:448px;
+}
+
+#large-img-container .large-img-cover img{
   height:100%;
 }
 
@@ -840,6 +877,14 @@ textarea:focus, input:focus{
   width:100%;
 }
 
+.client-image-delim{
+  background:black;
+}
+
+.client-image-delim img:hover{
+  opacity:.3;
+}
+
 @media screen and (max-width: 500px) 
 {
     .client-image-delim
@@ -850,40 +895,18 @@ textarea:focus, input:focus{
     }
 }
 
-.client-text-delim{
-  width:50%;
-  height:325px;
-  text-align:center;
-  background:white;
+#call-container{
+  padding:5%;
+  border:solid;
 }
 
-@media screen and (max-width: 500px) 
-{
-    .client-text-delim
-    {
-       margin:auto;
-       margin-top:25px;
-       margin-bottom:25px;
-       width:100%;
-       height:200px;
-       display:block;
-    }
+#call-container #call-to-action{
+  border:solid;
 }
 
-.client-text-delim .client-text{
-  margin:auto;
-  width:90%;
-  height:80%;
-  text-align:left;
-  font-size:30px;
-}
-
-@media screen and (max-width: 500px) 
-{
-    .client-text-delim .client-text
-    {
-       font-size:20px;
-    }
+/*TEAM SECTION */
+.section-body#about{
+  padding-bottom:20%;
 }
 
 #team-members-list{
@@ -1167,6 +1190,12 @@ footer .bottom-line .contact-info{
 .bottom-line .contact-info tbody tr td.outer{
   width:25%;
 }
+
+
+
+
+
+
 
 
 

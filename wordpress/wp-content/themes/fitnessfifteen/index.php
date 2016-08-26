@@ -118,19 +118,19 @@
         </div>
         <div class="featureContainer ">
             <div class="circleBase feature-icon nutrition"></div>
-            <div class="feature-name">Campus-Specific Nutrition</div>
+            <div class="feature-name">Flexible Nutrition</div>
             <p class="feature-description">With so many dining options on-campus, it’s tough to decide which choices are healthy, let alone what to eat for each meal. We make it simple by offering healthy suggestions for every meal anywhere on-campus.</p>
         </div>
         <div class="featureContainer">
-            <div class="circleBase feature-icon feedback"></div>
+            <div class="circleBase feature-icon feedback outer-right"></div>
             <div class="feature-name">Immediate Feedback</div>
             <p class="feature-description">Have a question about your form on a particular exercise or anything fitness-related? Ask our personal trainers via text/e-mail and get a response within 24 hours.</p>
         </div>
-        <div class="featureContainer outer-right">
+       <!-- <div class="featureContainer outer-right">
             <div class="circleBase feature-icon flexibility"></div>
             <div class="feature-name">Flexibility</div>
             <p class="feature-description">The purpose of our service isn’t to have fitness take over your life, but to help you integrate healthy habits into the college lifestyle. You can still drink natty. You can still eat Chiptole.</p>
-        </div>
+        </div> -->
     </div>
     <div id="graphic-image-container">
         <img src="wp-content/themes/fitnessfifteen/images/before-after.svg">
@@ -158,8 +158,8 @@
         <h1 class="section-head slide">Summer 16</h1>
         <h1 class="sub-head highlight slide">( Got fit and loved our sh*t )</h1>
         <img class="mySlides w3-animate-fading" src="wp-content/themes/fitnessfifteen/images/sorority-beach.jpg" style="width:100%">
-        <img class="mySlides w3-animate-fading" src="wp-content/themes/fitnessfifteen/images/fraternity-beach.jpg" style="width:100%">
-        <img class="mySlides w3-animate-fading" src="wp-content/themes/fitnessfifteen/images/fraternity-beach.jpg" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="wp-content/themes/fitnessfifteen/images/gronk-shredded.jpg" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="wp-content/themes/fitnessfifteen/images/arnold-alcohol.jpg" style="width:100%">
         <div class="w3-center w3-section w3-large w3-text-white w3-display-bottomleft" style="width:100%">
             <!-- <div class="w3-left w3-padding-left w3-hover-text-khaki">&#10094;</div>
             <div class="w3-right w3-padding-right w3-hover-text-khaki">&#10095;</div> -->
@@ -188,21 +188,57 @@
     </div> -->
     <div id="clients-container">
         <div id="large-img-container">
-            <img src="wp-content/themes/fitnessfifteen/images/olivia-marcus.jpg">
+            <div class="large-img-cover">
+                <div id="client-feat-info" class="client-info">Olivia, Chapman University</div>
+                <div id="client-feat-testimonial" class="client-testimonial">"Fitness Fifteen was awesome. Seriously check it out. Im not kidding. Its sweet. Fitness Fifteen was awesome. Seriously check it out. Im not kidding. Its sweet. Fitness Fifteen was awesome. Seriously check it out. Im not kidding. Its sweet."</div>
+                <img src="wp-content/themes/fitnessfifteen/images/olivia-marcus.jpg">
+            </div>
         </div>
         <div id="grid-container">
             <table class="client-grid">
                 <tbody>
                     <tr>
-                        <td class="client-image-delim"><img src="wp-content/themes/fitnessfifteen/images/dylan-shlaughter.jpg"></td>
-                        <td class="client-image-delim"><img src="wp-content/themes/fitnessfifteen/images/eric-chao.jpg"></td>
+                        <td class="client-image-delim">
+                            <div id="client-1-info" class="client-info">Dylan, Washington University</div>
+                            <div id="client-1-testimonial" class="client-testimonial">"Fitness Fifteen was awesome. Seriously check it out. Im not kidding. Its sweet."</div>
+                            <img src="wp-content/themes/fitnessfifteen/images/dylan-shlaughter.jpg">
+                        </td>
+                        <td class="client-image-delim">
+                            <div id="client-2-info" class="client-info">Eric, Washington University</div>
+                            <div id="client-2-testimonial" class="client-testimonial">"Fitness Fifteen was awesome. Seriously check it out. Im not kidding. Its sweet."</div>
+                            <img src="wp-content/themes/fitnessfifteen/images/eric-chao.jpg">
+                        </td>
                     </tr>
                     <tr>
-                        <td class="client-image-delim"><img src="wp-content/themes/fitnessfifteen/images/collin-morell.jpg"></td>
-                        <td class="client-image-delim"><img src="wp-content/themes/fitnessfifteen/images/ed-shelley.jpg"></td>
+                        <td class="client-image-delim">
+                            <div id="client-3-info" class="client-info">Collin, Ohio State University</div>
+                            <div id="client-3-testimonial" class="client-testimonial">"Fitness Fifteen was awesome. Seriously check it out. Im not kidding. Its sweet."</div>
+                            <img src="wp-content/themes/fitnessfifteen/images/collin-morell.jpg">
+                        </td>
+                        <td class="client-image-delim">
+                            <div id="client-4-info" class="client-info">Ed, Ohio University</div>
+                            <div id="client-4-testimonial" class="client-testimonial">"Fitness Fifteen was awesome. Seriously check it out. Im not kidding. Its sweet."</div>
+                            <img src="wp-content/themes/fitnessfifteen/images/ed-shelley.jpg">
+                        </td>
                     </tr>
                 </tbody>
             </table>
+        </div>
+    </div>
+    <div class="section-content">
+        <hr>
+        <div class="p-wrapper">
+            <p>
+               <i>"I'm pretty sure there's a lot more to life than being really, really, ridiculously good looking. And I plan on finding out what that is."</i>
+            </p>
+        </div>
+        <div id="quote-by"><b>- Derek Zoolander</b></div>
+        <hr>
+        <div id="call-container">
+            Until we find out...
+            <div id="call-to-action">
+                here is where we will place the call to action. Boom.
+            </div>
         </div>
     </div>
 </section>
@@ -214,19 +250,18 @@
         <div class="teamMemberContainer outer-left">
             <div class="circleBase team-member-icon Brennan"></div>
             <div class="team-member-name">Brennan Morell, <span class="highlight">Tech</div>
-            <p class="team-member-description">An all around beast, Brennan is waiting to unveil his beautifully crafted bio once
-            the other team members have finished their's up.</p>
+            <p class="team-member-description">From Chicago, Cleveland, or somewhere in between. Squats at the preacher curl rack. Has been half-assed cutting for a year. Lives for sorority mixers. Just hit Chipotle hot status for the second month straight. Brought this site into the world, and can take it out.
+            </p>
         </div>
         <div class="teamMemberContainer ">
             <div class="circleBase team-member-icon Devin"></div>
             <div class="team-member-name">Devin Goodkin, <span class="highlight">Product</div>
-            <p class="team-member-description">Devin is busy writing 108 workout programs so he hasn't gotten to his bio yet either. Hopefully he has one written by the site's launch.</p>
+            <p class="team-member-description">From Miami and enjoys long walks on the beach. Can't swim. Started a fitness instagram just to show off his dad bod. Favorite movies are The Room and Troll 2. Had a cameo in Kanye’s "The New Workout Plan". Certified PT under ISSA. Misses Harambe.</p>
         </div>
         <div class="teamMemberContainer outer-right">
             <div class="circleBase team-member-icon Josh"></div>
             <div class="team-member-name">Joshua Zhou, <span class="highlight">Business</span></div>
-            <p class="feature-description">Joshua Zhou is a pretty cool guy but he hasnt written his bio yet so we are going to 
-            fill some space until he gets on that. Waiting on you Josh.</p>
+            <p class="feature-description">Went from small nerdy asian kid to slightly bigger nerdy asian kid. Enjoys 'gunning brews (12 second PR) and playing die. Pledge Dad walked out on him. Can’t resist flexing when near a mirror. Does other people's laundry for a living.</p>
         </div>
     </div>
     <!-- ADVISORS -->
