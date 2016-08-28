@@ -107,33 +107,33 @@
                 integrate healthy choices into their unruly, binge-drinking filled, lifestyles."</i>
             </p>
         </div>
-        <div id="quote-by"><b>- Your Chancellor</b></div>
+        <div id="quote-by"><span class="highlight">-Your Chancellor</span></div>
+        <hr>
     </div>
-    <hr>
+    <!--<div id="graphic-image-container">
+        <img src="wp-content/themes/fitnessfifteen/images/before-after.svg">
+    </div>-->
     <div id="features-list">
         <div class="featureContainer outer-left">
             <div class="circleBase feature-icon workouts"></div>
             <div class="feature-name">Personalized Workouts</div>
-            <p class="feature-description">We create workout programs that are catered to your preferences and fitness goals to help you optimize your time spent in the gym.</p>
+            <p class="feature-description">Wondering if those booty blaster workouts you’ve been doing in your dorm room have been working? Well considering you’re reading this, they probably haven’t been. Unlike most online fitness companies, we’ll create customized workout programs based on your specific preferences and fitness goals in order to help you get the body you've always dreamed of. All eyes will be on you during NO-T-OT.</p>
         </div>
         <div class="featureContainer ">
             <div class="circleBase feature-icon nutrition"></div>
             <div class="feature-name">Flexible Nutrition</div>
-            <p class="feature-description">With so many dining options on-campus, it’s tough to decide which choices are healthy, let alone what to eat for each meal. We make it simple by offering healthy suggestions for every meal anywhere on-campus.</p>
+            <p class="feature-description">With limited dining options available, it’s tough to find healthy meals the night of and the morning after. In order to make your life easier, Fitness15 teaches you simple ways to balance out your diet. Now you can go out and drink without worrying about getting fat. In fact, we actually want you to get absolutely smashed every weekend. Remember, we put the flex back in flexible dieting.</p>
         </div>
         <div class="featureContainer">
             <div class="circleBase feature-icon feedback outer-right"></div>
             <div class="feature-name">Immediate Feedback</div>
-            <p class="feature-description">Have a question about your form on a particular exercise or anything fitness-related? Ask our personal trainers via text/e-mail and get a response within 24 hours.</p>
+            <p class="feature-description">Are you ever too scared to ask for advice from that huge guy in the gym? Well, so are we but our certified personal trainers can answer any fitness-related questions you may have. Feel free to send us a video of you working out and we will critique your form. Guaranteed response within 24 hours otherwise we will gift you a free rack of natty if you are of age (or not).</p>
         </div>
        <!-- <div class="featureContainer outer-right">
             <div class="circleBase feature-icon flexibility"></div>
             <div class="feature-name">Flexibility</div>
             <p class="feature-description">The purpose of our service isn’t to have fitness take over your life, but to help you integrate healthy habits into the college lifestyle. You can still drink natty. You can still eat Chiptole.</p>
         </div> -->
-    </div>
-    <div id="graphic-image-container">
-        <img src="wp-content/themes/fitnessfifteen/images/before-after.svg">
     </div>
 </section>
 <section id="beta" class="section-body">
@@ -227,19 +227,24 @@
     </div>
     <div class="section-content">
         <hr>
+        <hr>
         <div class="p-wrapper">
             <p>
                <i>"I'm pretty sure there's a lot more to life than being really, really, ridiculously good looking. And I plan on finding out what that is."</i>
             </p>
         </div>
-        <div id="quote-by"><b>- Derek Zoolander</b></div>
+        <div id="quote-by"><span class="highlight">- Derek Zoolander</span></div>
         <hr>
+        <div id="quote-commentary">You're not gonna find out.</div>
         <div id="call-container">
-            Until we find out...
             <div id="call-to-action">
-                here is where we will place the call to action. Boom.
+                <input id="call-email" type="call-email" placeholder="email">
+                <div id="call-signup">Start for free</div>
             </div>
+            <div id="call-message">Enter valid .edu email to continue</div>
         </div>
+        <hr>
+        <hr>
     </div>
 </section>
 <section id="about" class="section-body">

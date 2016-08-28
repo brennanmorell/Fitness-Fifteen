@@ -2,7 +2,6 @@ var signedUp = false;
 
 function signupAjax(){
 	if(!signedUp){
-		console.log("Proceeding to signup.")
 		//prepare relevant signup fields
 		$(".modal-title.start").show();
 		$(".modal-body form").show();
@@ -27,6 +26,41 @@ function signupAjax(){
 		}
 		else{
 			$("#init-message").show();
+		}
+	}
+	else{
+		console.log("User already signed up.")
+		//already signed up
+		$("#userSignupForm").modal("show");
+	}
+}
+
+function callToActionAjax(){
+	if(!signedUp){
+		//prepare relevant signup fields
+		$(".modal-title.start").show();
+		$(".modal-body form").show();
+		$("#signup-wrapper").show();
+		$(".modal-footer").show();
+		$(".modal-title.confirmation").hide();
+		$(".signup-confirmation").hide();
+
+		var userEmail = $("#call-email").val();
+		if(filterEmail(userEmail)){
+			$("#email").val(userEmail);
+			$("#userSignupForm").modal("show");
+
+			$("#signup").off("click");
+			$("#signup").on("click", function(){
+				console.log("Click event attached");
+				userEmail = $("#email").val();
+				userFirst = $("#first").val();
+				userLast = $("#last").val();
+				processInput(userEmail, userFirst, userLast)
+			});
+		}
+		else{
+			$("#call-message").show();
 		}
 	}
 	else{
@@ -127,9 +161,16 @@ function filterEmail(userEmail){
 }
 
 $(document).ready(function() {
+	$("#init-message").hide();
+	$("#call-message").hide();
 
     $("#start-init").click(function() {
     	$("#init-message").hide();
     	signupAjax();
+    });
+
+    $("#call-signup").click(function() {
+    	$("#call-message").hide(); //change
+    	callToActionAjax();
     });
 });
