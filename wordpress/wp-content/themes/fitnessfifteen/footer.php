@@ -1,5 +1,6 @@
 <?php //wp_footer(); ?>
 		<footer>
+					<script type="text/javascript" data-cfasync="false" src="wp-content/themes/fitnessfifteen/js/slide-script.js"></script>
 			<div class="bottom-line">
 				<div class="image-container">
 					<img src="wp-content/themes/fitnessfifteen/images/logo-package/FF-White.svg">

@@ -21,8 +21,6 @@
 			wp_enqueue_style( 'post_style', get_template_directory_uri()."/css/post-style.css");
 			//enqueue stylesheet for scrolling nav
 			wp_enqueue_style( 'scrolling_nav_style', get_template_directory_uri()."/css/scrolling-nav.css");
-			//enqueue stylesheet for w3
-			wp_enqueue_style( 'w3_style', "http://www.w3schools.com/lib/w3.css");
 			//enqueue stylesheet for slide
 			wp_enqueue_style( 'slide_style', get_template_directory_uri()."/css/slide-style.css");
 	}

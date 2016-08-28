@@ -1,14 +1,12 @@
-var $ = jQuery.noConflict();
+ar $ = jQuery.noConflict();
 
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     console.log("user scrolled");
     if ($(".navbar").offset().top > 50) {
         $(".navbar").addClass("top-nav-collapse");
-        console.log("Time to collapse navbar");
     } else {
         $(".navbar").removeClass("top-nav-collapse");
-        console.log("Time to uncollapse navbar")
     }
 });
 
@@ -22,4 +20,3 @@ $(function() {
         event.preventDefault();
     });
 });
-

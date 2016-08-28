@@ -942,6 +942,38 @@ textarea:focus, input:focus{
   display:none;
 }
 
+@media screen and (max-width: 800px) 
+{
+    .client-testimonial
+    {
+      padding-top:150px;
+      width:400px;
+      height:400px;
+      display:inline !important;
+    }
+}
+
+@media screen and (max-width: 500px) 
+{
+    .client-testimonial
+    {
+      padding-top:150px;
+      width:338px;
+      height:400px;
+      display:inline !important;
+    }
+}
+
+
+@media screen and (max-width: 500px) 
+{
+    #client-feat-testimonial
+    {
+      width:275px;
+      height:338px;
+    }
+}
+
 #client-feat-testimonial{
   width:450px;
   height:560px;
@@ -949,6 +981,26 @@ textarea:focus, input:focus{
   padding-left:25px;
   padding-right:25px;
   line-height:45px;
+}
+
+@media screen and (max-width: 800px) 
+{
+    #client-feat-testimonial
+    {
+      width:472px;
+      height:618px;
+      display:inline !important;
+    }
+}
+
+@media screen and (max-width: 500px) 
+{
+    #client-feat-testimonial
+    {
+      padding-top:30px;
+      width:257px;
+      height:320px;
+    }
 }
 
 #clients-container .client-grid{
@@ -1015,7 +1067,7 @@ textarea:focus, input:focus{
 {
     #large-img-container
     {
-      width:500px;
+      width:503px;
       height:618px;
       overflow: hidden;
       margin: 0 auto;
@@ -1041,6 +1093,26 @@ textarea:focus, input:focus{
   height:100%;
   width:448px;
 }
+
+@media screen and (max-width: 800px) 
+{
+    .large-img-cover
+    {
+      width:478px !important;
+      height:618px;
+    }
+}
+
+@media screen and (max-width: 500px) 
+{
+    .large-img-cover
+    {
+      width:254px !important;
+      height:338px;
+      border;
+    }
+}
+
 
 
 #large-img-container .large-img-cover img{
@@ -1073,6 +1145,14 @@ textarea:focus, input:focus{
     {
        width:400px;
        height:400px;
+    }
+}
+
+@media screen and (max-width: 500px) 
+{
+    .client-image-delim
+    {
+       height:335px;
     }
 }
 
@@ -1477,6 +1557,16 @@ footer .bottom-line .contact-info{
 .bottom-line .contact-info tbody tr td.outer{
   width:25%;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

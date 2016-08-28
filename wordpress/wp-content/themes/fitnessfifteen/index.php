@@ -18,7 +18,6 @@
         <li><a class="page-scroll" href="#beta" onclick="hideNav()">Summer 16</a></li>
         <li><a class="page-scroll" href="#about" onclick="hideNav()">About</a></li>
         <!--<li><a class="page-scroll" href="#blog" onclick="hideNav()">Blog</a></li>-->
-        <li><a href="blog">Blog</a></li>
         <li id="menuIcon" class="icon">
             <a href="javascript:void(0);" style="font-size:15px;" onclick="navRespond()">☰</a>
         </li>

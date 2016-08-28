@@ -11,5 +11,6 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
 		<?php wp_head() ?>
+		<script type="text/javascript" data-cfasync="false" src="wp-content/themes/fitnessfifteen/js/slide-script.js"></script>
 	</head>
 	<body>

@@ -163,6 +163,7 @@ function filterEmail(userEmail){
 $(document).ready(function() {
 	$("#init-message").hide();
 	$("#call-message").hide();
+	$("#start-init").hide();
 
     $("#start-init").click(function() {
     	$("#init-message").hide();
@@ -171,6 +172,17 @@ $(document).ready(function() {
 
     $("#call-signup").click(function() {
     	$("#call-message").hide(); //change
+    	callToActionAjax();
+    });
+
+    $("#start-init").on("tap", function(){
+    	$("#init-message").hide();
+    	signupAjax();
+    });
+
+
+    $("#call-signup").on("tap", function(){
+    	$("#call-message").hide();
     	callToActionAjax();
     });
 });
