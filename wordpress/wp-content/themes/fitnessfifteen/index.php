@@ -196,7 +196,7 @@
                     <tr>
                         <td id="jena" class="client-image-delim">
                             <div id="client-3-info" class="client-info">Jena, University of Florida</div>
-                            <div id="client-3-testimonial" class="client-testimonial">"Transitioning from living with my parents to living on my own at UF, it was hard for me to maintain a healthy lifestyle. Pizza became my go-to dinner for my busy schedule. Fitness Fifteen gave me a personalized workout program and flexible nutritional advice. Because of them, I’ve found myself feeling healthier, physically and mentally."</div>
+                            <div id="client-3-testimonial" class="client-testimonial">"Going from living with my parents to living on my own at UF, it was hard for me to maintain a healthy lifestyle. Pizza became my go-to dinner for my busy schedule. Since starting Fitness Fifteen, I’ve found myself feeling healthier, both physically and mentally."</div>
                             <img src="wp-content/themes/fitnessfifteen/images/DevinFriend2.jpg">
                         </td>
                         <td id="ed" class="client-image-delim">
