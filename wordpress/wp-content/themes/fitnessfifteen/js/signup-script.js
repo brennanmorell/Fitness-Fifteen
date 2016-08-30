@@ -36,6 +36,7 @@ function signupAjax(){
 }
 
 function callToActionAjax(){
+	console.log("in call to action");
 	if(!signedUp){
 		//prepare relevant signup fields
 		$(".modal-title.start").show();
@@ -163,7 +164,6 @@ function filterEmail(userEmail){
 $(document).ready(function() {
 	$("#init-message").hide();
 	$("#call-message").hide();
-	$("#start-init").hide();
 
     $("#start-init").click(function() {
     	$("#init-message").hide();

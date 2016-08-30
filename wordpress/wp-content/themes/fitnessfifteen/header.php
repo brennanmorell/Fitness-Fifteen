@@ -10,7 +10,9 @@
 		<title>Fitness 15</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
+		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/images/FF-Favicon.jpg" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<?php wp_head() ?>
-		<script type="text/javascript" data-cfasync="false" src="wp-content/themes/fitnessfifteen/js/slide-script.js"></script>
 	</head>
 	<body>

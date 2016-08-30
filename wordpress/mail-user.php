@@ -14,7 +14,7 @@ require_once "/usr/local/bin/vendor/autoload.php";
 
 		//From email address and name
 		$mail->From = "b.morell@wustl.edu";
-		$mail->FromName = "Brennan Morell";
+		$mail->FromName = "Webmaster Morell";
 
 		//To address and name
 		//$mail->addAddress("bpmorell13@yahoo.com", "Brennan Morell2");

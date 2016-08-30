@@ -27,19 +27,7 @@
     <section id="home">
         <div id="above-fold-content">
             <div id="logo-head"><img src="wp-content/themes/fitnessfifteen/images/logo-package/Fitness-3.svg"></div>
-            <!--<h1>FITNESS <span class="highlight">FIFTEEN</span></h1>
-            <div id="description">-->
-                <!--<div id="description-header">No More Freshman 15</div>-->
-                <!--Custom workouts and campus-specific nutrition for college students, by college students.-->
-                <!--<p id="description-sub">-->
-                    <!--PERSONALIZED WORKOUTS <span class="highlight division">|</span> CAMPUS-SPECIFIC NUTRITION-->
-                <!--</p>-->
-            <!--</div>-->
         </div>
-        <!-- <div id="above-fold-head">
-            <div class="stacked one">Fitness for the College Lifestyle.</div>
-            <div class="button">Video</div>
-        </div> -->
     </section>
     <div class="bottom-banner">
         <div class="action">
@@ -97,7 +85,7 @@
 <section id="features" class="section-body">
     <div class="section-content">
         <!-- Personalized Workouts, Campus-Specific Nutrition, Immediate Feedback, Flexibility -->
-        <div class="content-header">NO MORE FRESHMAN FIFTEEN.</div>
+        <div class="content-header">NO MORE FRESHMAN 15.</div>
         <hr>
         <div class="p-wrapper">
             <p>
@@ -109,14 +97,11 @@
         <div id="quote-by"><span class="highlight">-Your Chancellor</span></div>
         <hr>
     </div>
-    <!--<div id="graphic-image-container">
-        <img src="wp-content/themes/fitnessfifteen/images/before-after.svg">
-    </div>-->
     <div id="features-list">
         <div class="featureContainer outer-left">
             <div class="circleBase feature-icon workouts"></div>
             <div class="feature-name">Personalized Workouts</div>
-            <p class="feature-description">Wondering if those booty blaster workouts you’ve been doing in your dorm room have been working? Well considering you’re reading this, they probably haven’t been. Unlike most online fitness companies, we’ll create customized workout programs based on your specific preferences and fitness goals in order to help you get the body you've always dreamed of. All eyes will be on you during NO-T-OT.</p>
+            <p class="feature-description">Wondering if those booty blaster workouts you’ve been doing in your dorm room have been working? Well considering you’re reading this, they probably haven’t been. Unlike most online fitness companies, we’ll create customized workout programs for you based on your specific preferences and fitness goals in order to help you get the body you've always dreamed of. All eyes will be on you during NO-T-OT.</p>
         </div>
         <div class="featureContainer ">
             <div class="circleBase feature-icon nutrition"></div>
@@ -189,7 +174,7 @@
         <div id="large-img-container">
             <div class="large-img-cover">
                 <div id="client-feat-info" class="client-info">Olivia, Chapman University</div>
-                <div id="client-feat-testimonial" class="client-testimonial">"Fitness Fifteen was awesome. Seriously check it out. Im not kidding. Its sweet. Fitness Fifteen was awesome. Seriously check it out. Im not kidding. Its sweet. Fitness Fifteen was awesome. Seriously check it out. Im not kidding. Its sweet."</div>
+                <div id="client-feat-testimonial" class="client-testimonial">"Before Fitness Fifteen, I was tired of spending what seemed like all my free time doing cardio and getting no results in the gym so I signed up for a two week free trial. At first, I was hesitant to start their program because I’ve never lifted weights before; however, the trainers were supportive and the workouts were easy to follow. After two weeks, I noticed my body has gotten more toned and I’ve spent less time in the gym. I’m happy that I finally found something that works and fits into my hectic lifestyle."</div>
                 <img src="wp-content/themes/fitnessfifteen/images/olivia-marcus.jpg">
             </div>
         </div>
@@ -197,26 +182,26 @@
             <table class="client-grid">
                 <tbody>
                     <tr>
-                        <td class="client-image-delim">
+                        <td id="dylan" class="client-image-delim">
                             <div id="client-1-info" class="client-info">Dylan, Washington University</div>
-                            <div id="client-1-testimonial" class="client-testimonial">"Fitness Fifteen was awesome. Seriously check it out. Im not kidding. Its sweet."</div>
-                            <img src="wp-content/themes/fitnessfifteen/images/dylan-shlaughter.jpg">
+                            <div id="client-1-testimonial" class="client-testimonial">"Fitness Fifteen is for ballers, like me. Trust me, you will get jacked out of your mind. Sign up."</div>
+                            <img src="wp-content/themes/fitnessfifteen/images/dylan-slaughter.jpg">
                         </td>
-                        <td class="client-image-delim">
-                            <div id="client-2-info" class="client-info">Eric, Washington University</div>
-                            <div id="client-2-testimonial" class="client-testimonial">"Fitness Fifteen was awesome. Seriously check it out. Im not kidding. Its sweet."</div>
-                            <img src="wp-content/themes/fitnessfifteen/images/eric-chao.jpg">
+                        <td id="claudia" class="client-image-delim">
+                            <div id="client-2-info" class="client-info">Claudia, University of Florida</div>
+                            <div id="client-2-testimonial" class="client-testimonial">"I had a body that most girls would kill for in high school but when I got to UF I let myself slip. By combining cardio and weights, Fitness Fifteen helped get me back on track and now girls ask me for advice when I’m at the gym!"</div>
+                            <img src="wp-content/themes/fitnessfifteen/images/DevinFriend1.jpg">
                         </td>
                     </tr>
                     <tr>
-                        <td class="client-image-delim">
-                            <div id="client-3-info" class="client-info">Collin, Ohio State University</div>
-                            <div id="client-3-testimonial" class="client-testimonial">"Fitness Fifteen was awesome. Seriously check it out. Im not kidding. Its sweet."</div>
-                            <img src="wp-content/themes/fitnessfifteen/images/collin-morell.jpg">
+                        <td id="jena" class="client-image-delim">
+                            <div id="client-3-info" class="client-info">Jena, University of Florida</div>
+                            <div id="client-3-testimonial" class="client-testimonial">"Transitioning from living with my parents to living on my own at UF, it was hard for me to maintain a healthy lifestyle. Pizza became my go-to dinner for my busy schedule. Fitness Fifteen gave me a personalized workout program and flexible nutritional advice. Because of them, I’ve found myself feeling healthier, physically and mentally."</div>
+                            <img src="wp-content/themes/fitnessfifteen/images/DevinFriend2.jpg">
                         </td>
-                        <td class="client-image-delim">
+                        <td id="ed" class="client-image-delim">
                             <div id="client-4-info" class="client-info">Ed, Ohio University</div>
-                            <div id="client-4-testimonial" class="client-testimonial">"Fitness Fifteen was awesome. Seriously check it out. Im not kidding. Its sweet."</div>
+                            <div id="client-4-testimonial" class="client-testimonial">"I played football and lifted consistently in high school but started to slack come college. Fitness Fifteen gave me a program tailored to my goals, taught me how to diet correctly and got me absolutely shredded. "</div>
                             <img src="wp-content/themes/fitnessfifteen/images/ed-shelley.jpg">
                         </td>
                     </tr>
@@ -254,72 +239,20 @@
         <div class="teamMemberContainer outer-left">
             <div class="circleBase team-member-icon Brennan"></div>
             <div class="team-member-name">Brennan Morell, <span class="highlight">Tech</div>
-            <p class="team-member-description">From Chicago, Cleveland, or somewhere in between. Squats at the preacher curl rack. Has been half-assed cutting for a year. Lives for sorority mixers. Just hit Chipotle hot status for the second month straight. Brought this site into the world, and can take it out.
+            <p class="team-member-description">From Chicago, Cleveland, or somewhere in between. Squats at the preacher curl rack. The only 150lb dude who thinks he needs to lose weight. Lives for sorority mixers. Just hit Chipotle hot status for the second month straight. Pierced his ear once. He's pretty sick considering he received Wash U's Computer Science Sophomore of the Year award (ladies, he's single).
             </p>
         </div>
         <div class="teamMemberContainer ">
             <div class="circleBase team-member-icon Devin"></div>
             <div class="team-member-name">Devin Goodkin, <span class="highlight">Product</div>
-            <p class="team-member-description">From Miami and enjoys long walks on the beach. Can't swim. Started a fitness instagram just to show off his dad bod. Favorite movies are The Room and Troll 2. Had a cameo in Kanye’s "The New Workout Plan". Certified PT under ISSA. Misses Harambe.</p>
+            <p class="team-member-description">From Miami and enjoys long walks on the beach. Captain of his high school rowing team but still can't pull. Squats everyday and aspires to have a better ass than his future spouse. Favorite movies are The Room and Troll 2. Started a fitness instagram just to show off his dad bod. ISSA Certified Personal Trainer. Still mourns the loss of Harambe deeply.</p>
         </div>
         <div class="teamMemberContainer outer-right">
             <div class="circleBase team-member-icon Josh"></div>
             <div class="team-member-name">Joshua Zhou, <span class="highlight">Business</span></div>
-            <p class="feature-description">Went from small nerdy asian kid to slightly bigger nerdy asian kid. Enjoys 'gunning brews (12 second PR) and playing die. Pledge Dad walked out on him. Can’t resist flexing when near a mirror. Does other people's laundry for a living.</p>
+            <p class="feature-description">Went from small nerdy asian kid to slightly bigger nerdy asian kid. Enjoys 'gunning brews and playing die on the weekends. Pledge Father walked out on him. Can’t resist flexing when passing a mirror. Majoring in Magic the Gathering. The type of guy who brags about having 500+ LinkedIn connections. Does other people's laundry for a living (at least he owns a company that does).</p>
         </div>
     </div>
-    <!-- ADVISORS -->
-    <!--<div id="advisors-list">
-        <div class="advisorContainer outer-left">
-            <div class="circleBase advisor-icon advisor1"></div>
-            <div class="advisor-name">Advisor 1, <span class="highlight">POSITION</span></div>
-            <p class="advisor-description">This is a description about this advisors startup history/expertise/certifications. Also mentioned is what this advisor brings to the table.</p>
-        </div>
-        <div class="advisorContainer ">
-            <div class="circleBase advisor-icon advisor2"></div>
-            <div class="advisor-name">Advisor 2, <span class="highlight">POSITION</div>
-            <p class="advisor-description">This is a description about this advisors startup history/expertise/certifications. Also mentioned is what this advisor brings to the table.</p>
-        </div>
-        <div class="advisorContainer">
-            <div class="circleBase advisor-icon advisor3"></div>
-            <div class="advisor-name">Advisor 3, <span class="highlight">POSITION</div>
-            <p class="advisor-description">This is a description about this advisors startup history/expertise/certifications. Also mentioned is what this advisor brings to the table.</p>
-        </div>
-        <div class="advisorContainer outer-right">
-            <div class="circleBase advisor-icon advisor4"></div>
-            <div class="advisor-name">Advisor 4, <span class="highlight">POSITION</div>
-            <p class="advisor-description">This is a description about this advisors startup history/expertise/certifications. Also mentioned is what this advisor brings to the table.</p>
-        </div>
-    </div>-->
 </section>
-<!--<section id="blog" class="section-body">
-    <h1 class="section-head">Blog</h1>
-    <h1 class="sub-head">(We write stuff for you)</h1>
-    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-        <div id="post-<?php the_ID(); ?>">
-            <span class="title">
-                <strong>Title:</strong>
-                <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
-                    <?php the_title(); ?>
-                </a>
-            </span>
-            <span class="author">
-                Author:
-                <?php the_author(); ?> 
-            </span>
-            <span class="date">
-                Date:
-                <?php echo get_the_date(); //date has to be echoed?> 
-            </span>
-            <span>
-                Excerpt:
-                <?php echo get_the_excerpt() ?> 
-            </span>
-        </div>
-        <br><br> --> <!-- get rid of these when styling!!! -->
-    <!--<?php endwhile; else : ?>
-    <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
-    <?php endif; ?>
-</section>-->
 <div class="bottom-banner contact"></div>
 <?php get_footer(); ?>
