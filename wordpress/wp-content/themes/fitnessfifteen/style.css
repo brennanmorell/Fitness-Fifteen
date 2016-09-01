@@ -970,7 +970,6 @@ textarea:focus, input:focus{
   width:275px;
   height:275px;
   text-align:center;
-  padding-top:100px;
   padding-left:5px;
   padding-right:5px;
   line-height:25px;
@@ -1032,7 +1031,7 @@ textarea:focus, input:focus{
 #client-feat-testimonial{
   width:450px;
   height:560px;
-  padding-top:80px;
+  padding-top:40px;
   padding-left:25px;
   padding-right:25px;
   line-height:45px;
@@ -1064,6 +1063,10 @@ textarea:focus, input:focus{
     {
       line-height:20px;
     }
+}
+
+#client-1-testimonial{
+  padding-top:50px;
 }
 
 @media screen and (max-width: 800px) 
@@ -1123,7 +1126,7 @@ textarea:focus, input:focus{
 }
 
 #client-4-testimonial{
-  padding-top:45px;
+  padding-top:52px;
 }
 
 @media screen and (max-width: 800px) 
@@ -1771,6 +1774,9 @@ footer .bottom-line .contact-info{
 .bottom-line .contact-info tbody tr td.outer{
   width:25%;
 }
+
+
+
 
 
 

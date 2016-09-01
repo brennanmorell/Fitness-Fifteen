@@ -33,7 +33,7 @@
         <div class="action">
             <div class="user-input-wrapper">
                 <div class="user-input">
-                    <input id="email-init" type="text" name="email" placeholder="john.doe@wustl.edu" autocomplete="off">
+                    <input id="email-init" type="text" name="email" placeholder="john.doe@college.edu" autocomplete="off">
                     <div id="start-init" class="button">Start for free</div>
                 </div>
                 <div id="init-message">Enter valid .edu email to continue</div>
@@ -89,19 +89,17 @@
         <hr>
         <div class="p-wrapper">
             <p>
-               <i>"In a market where personal training is neither affordable nor practical, 
-                Fitness Fifteen provides the tailored services college students need to 
-                integrate healthy choices into their unruly, binge-drinking filled, lifestyles."</i>
+               <i>We help eliminate all the bs and misconceptions popularized by the fitness industry to ensure that your time in the gym actually makes a difference. Sign-up for a two week free trial that includes a personalized workout program, college-specific nutritional advice and workout logs to track your progress.</i>
             </p>
         </div>
-        <div id="quote-by"><span class="highlight">-Your Chancellor</span></div>
+       <!-- <div id="quote-by"><span class="highlight">-Your Chancellor</span></div> -->
         <hr>
     </div>
     <div id="features-list">
         <div class="featureContainer outer-left">
             <div class="circleBase feature-icon workouts"></div>
             <div class="feature-name">Personalized Workouts</div>
-            <p class="feature-description">Wondering if those booty blaster workouts you’ve been doing in your dorm room have been working? Well considering you’re reading this, they probably haven’t been. Unlike most online fitness companies, we’ll create customized workout programs for you based on your specific preferences and fitness goals in order to help you get the body you've always dreamed of. All eyes will be on you during NO-T-OT.</p>
+            <p class="feature-description">Wondering if those booty blaster workouts you’ve been doing in your dorm room have been working? Well considering you’re reading this, they probably haven’t been. Unlike most online fitness companies, we’ll create customized workout programs for you based on your specific preferences and fitness goals in order to help you get the body you've always dreamed of.</p>
         </div>
         <div class="featureContainer ">
             <div class="circleBase feature-icon nutrition"></div>
@@ -173,7 +171,7 @@
     <div id="clients-container">
         <div id="large-img-container">
             <div class="large-img-cover">
-                <div id="client-feat-info" class="client-info">Olivia, Chapman University</div>
+                <div id="client-feat-info" class="client-info">Loren, USC</div>
                 <div id="client-feat-testimonial" class="client-testimonial">"Before Fitness Fifteen, I was tired of spending what seemed like all my free time doing cardio and getting no results in the gym so I signed up for a two week free trial. At first, I was hesitant to start their program because I’ve never lifted weights before; however, the trainers were supportive and the workouts were easy to follow. After two weeks, I noticed my body has gotten more toned and I’ve spent less time in the gym. I’m happy that I finally found something that works and fits into my hectic lifestyle."</div>
                 <img src="wp-content/themes/fitnessfifteen/images/olivia-marcus.jpg">
             </div>
@@ -184,7 +182,7 @@
                     <tr>
                         <td id="dylan" class="client-image-delim">
                             <div id="client-1-info" class="client-info">Dylan, Washington University</div>
-                            <div id="client-1-testimonial" class="client-testimonial">"Fitness Fifteen is for ballers, like me. Trust me, you will get jacked out of your mind. Sign up."</div>
+                            <div id="client-1-testimonial" class="client-testimonial">"I used to workout consistently, but didn’t make any noticeable progress. This past summer, I started a program with Fitness Fifteen and not only do I feel bigger, but I put 15lb on my bench in the first month."</div>
                             <img src="wp-content/themes/fitnessfifteen/images/dylan-slaughter.jpg">
                         </td>
                         <td id="claudia" class="client-image-delim">
@@ -219,7 +217,7 @@
         </div>
         <div id="quote-by"><span class="highlight">- Derek Zoolander</span></div>
         <hr>
-        <div id="quote-commentary">You're not gonna find out.</div>
+        <div id="quote-commentary">Sign up to find out.</div>
         <div id="call-container">
             <div id="call-to-action">
                 <input id="call-email" type="call-email" placeholder="email">
@@ -233,24 +231,23 @@
 </section>
 <section id="about" class="section-body">
     <h1 class="section-head">3 Guys</h1>
-    <h1 class="sub-head highlight">( +2 Girls )</h1>
     <!-- TEAM MEMBERS -->
     <div id="team-members-list">
         <div class="teamMemberContainer outer-left">
             <div class="circleBase team-member-icon Brennan"></div>
             <div class="team-member-name">Brennan Morell, <span class="highlight">Tech</div>
-            <p class="team-member-description">From Chicago, Cleveland, or somewhere in between. Squats at the preacher curl rack. The only 150lb dude who thinks he needs to lose weight. Lives for sorority mixers. Just hit Chipotle hot status for the second month straight. Pierced his ear once. He's pretty sick considering he received Wash U's Computer Science Sophomore of the Year award (ladies, he's single).
+            <p class="team-member-description">
             </p>
         </div>
         <div class="teamMemberContainer ">
             <div class="circleBase team-member-icon Devin"></div>
             <div class="team-member-name">Devin Goodkin, <span class="highlight">Product</div>
-            <p class="team-member-description">From Miami and enjoys long walks on the beach. Captain of his high school rowing team but still can't pull. Squats everyday and aspires to have a better ass than his future spouse. Favorite movies are The Room and Troll 2. Started a fitness instagram just to show off his dad bod. ISSA Certified Personal Trainer. Still mourns the loss of Harambe deeply.</p>
+            <p class="team-member-description">Devin is a junior at Washington University in St. Louis studying Economics and Computer Science. In high school, he broke multiple athletic records, served as captain of his high school crew team and led his team to a state medal. As an ISSA certified Personal Trainer, he is passionate about fitness and helping others achieve their goals. He has trained multiple clients before joining Fitness Fifteen including competitive athletes, soccer moms and everyone in between.</p>
         </div>
         <div class="teamMemberContainer outer-right">
             <div class="circleBase team-member-icon Josh"></div>
             <div class="team-member-name">Joshua Zhou, <span class="highlight">Business</span></div>
-            <p class="feature-description">Went from small nerdy asian kid to slightly bigger nerdy asian kid. Enjoys 'gunning brews and playing die on the weekends. Pledge Father walked out on him. Can’t resist flexing when passing a mirror. Majoring in Magic the Gathering. The type of guy who brags about having 500+ LinkedIn connections. Does other people's laundry for a living (at least he owns a company that does).</p>
+            <p class="feature-description">Josh is a junior at Washington University in St. Louis majoring in Marketing and double minoring in Computer Science and Mathematics. He’s an active member of both a social fraternity and the Alpha Kappa Psi business fraternity, serves as a Wellness Specialist at the coworking space TechArtista, and owns one of the most popular on-campus businesses, Wash U Wash. Josh is an expert in nutrition and managed to lose 15 lbs of fat this past summer while continuing to go out every weekend.</p>
         </div>
     </div>
 </section>

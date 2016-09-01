@@ -3,7 +3,6 @@
 
 INFORMATION COLLECTION AND USE
 <br>
-General
 Fitness Fifteen collects personal information when you register for our services. This information includes your age, metric preferences, and other exercise and nutrition details.
 Fitness Fifteen also stores the data you track about exercise, nutrition and anything else you choose to record.
 When you register we ask for information such as your name, school, year in college, email address, gender, workout motives, and workout experience.
